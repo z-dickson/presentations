@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{Estimation with Infected Legislators Only}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lcccc}
+\toprule
+  & IVHS & Log & Covid Cases & w/ Cases and Deaths\\
+\midrule
+ATT.avg & -0.320 & -0.320 & -0.321 & -0.321\\
+S.E. & 0.132 & 0.132 & 0.133 & 0.132\\
+CI.lower & -0.579 & -0.579 & -0.581 & -0.579\\
+CI.upper & -0.061 & -0.061 & -0.060 & -0.062\\
+p.value & 0.015 & 0.015 & 0.016 & 0.015\\
+\addlinespace
+Observations & 13237.000 & 13237.000 & 13237.000 & 13237.000\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}makecell[l]{Standard errors are presented in parentheses. All results \presented use matrix completion methods and are estimated using the FECT \library in R (Liu, Wang, Xu 2022). Models 1 and 2 use an inverse hyperbolic \sine transformation and log+.1 transformation, respectively. Model 3\ includes the number of COVID-19 cases per day in each legislator's constituency state.\  Model 4 includes the number of new cases and new deaths in each legislator's\   constituency state.}}\\
+\end{tabular}}
+\end{table}

@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{Cumulative effects (ATT) of COVID-19 Infection on Opposition to COVID-19 Policies}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lcccc}
+\toprule
+  & IVHS & Log & Covid Cases & w/ Cases and Deaths\\
+\midrule
+ATT.avg & -0.327 & -0.327 & -0.329 & -0.327\\
+S.E. & 0.117 & 0.117 & 0.118 & 0.117\\
+CI.lower & -0.557 & -0.557 & -0.559 & -0.557\\
+CI.upper & -0.097 & -0.097 & -0.098 & -0.098\\
+p.value & 0.005 & 0.005 & 0.005 & 0.005\\
+\addlinespace
+Observations & 36722.000 & 36722.000 & 36722.000 & 36722.000\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}makecell[l]{Standard errors are presented in parentheses. All results \presented use matrix completion methods and are estimated using the FECT \library in R (Liu, Wang, Xu 2022). Models 1 and 2 use an inverse hyperbolic\ sine transformation and log+.1 transformation, respectively. Model 3 \ includes the number of COVID-19 cases per day in each legislator's \ constituency state. Model 4 includes the number of new cases and new \ deaths in each legislator's constituency state.}}\\
+\end{tabular}}
+\end{table}

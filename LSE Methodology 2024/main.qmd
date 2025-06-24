@@ -1,0 +1,387 @@
+---
+title: "Public Service Decline and Support for the Populist Right"
+subtitle: Evidence from England's National Health Service
+author: Zach Dickson (LSE)
+institute: Co-authored with Sara Hobolt (LSE), Catherine De Vries (Bocconi) & Simone Cremaschi (Bocconi)
+bibliography: references.bib
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: images/LSE_logo.png
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: fade
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [simple, custom.scss]
+    footer: <a>Public Service Decline and Support for the Populist Right</a>
+---
+
+
+
+
+
+::: {.r-stack}
+![](images/motivation1.png){.absolute .fragment top="0" left="10" align="left" width="650" height="350"}
+
+![](images/motivation7.png){.absolute .fragment top="10" right="20" align="left" width="650" height="300"}
+
+![](images/motivation3.png){.absolute .fragment bottom="0" left="5" align="bottom" width="550" height="300"}
+
+![](images/motivation4.png){.absolute .fragment top="0" right="20" align="top" width="650" height="400"}
+
+![](images/motivation6.png){.absolute .fragment top="0" left="0" align="left" width="500" height="300"}
+
+![](images/motivation2.png){.absolute .fragment top="170" left="10" align="left" width="550" height="350"}
+
+![](images/motivation5.png){.absolute .fragment bottom="40" right="10" align="bottom" width="600" height="300"}
+:::
+
+
+
+
+
+# Public Service Delivery {auto-animate="true" link-color="#172c83" body-bg="white" cite-color="#172c83" height=100}
+
+- Do diminishing public services create political grievances that increase support for right-wing populism?
+  - Literature on the drivers of populism have focused primarily on economic [@margalit2019economic] and cultural grievances [@norris2019cultural]
+  - Much less work on how direct experiences with poor public service provision may affect support for the populist right
+- If public service decline creates grievances, how do voters respond?
+  - Do they punish the incumbent?
+  - Do they shift to the party that "owns" the issue of public services?
+  - Do they shift to the populist right?
+  - Are the effects of declines conditioned by other factors, such as immigration?
+
+
+# Public Service Delivery {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+
+- Public service delivery is a core function of the state
+  - Key to the social contract between representatives and voters [@besley2020state]
+  - Key to the legitimacy of the state [@levi1988rule]
+  - Key to the quality of life of citizens [@vogler2023]
+- Public services are often the primary means through which citizens interact with and learn about the state's performance
+  - Even citizens uninterested or uninformed about politics are likely to have direct experiences with public services
+
+
+
+# The argument {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+
+- Declines in public service delivery can generate public dissatisfaction and grievances 
+- Shift to the populist right can occur for several reasons:
+  - As a protest vote against the establishment for failure to uphold the social contract
+  - When linked with cultural arguments about competition for scarce public services with immigrants
+    - Validates the populist right’s anti-immigrant rhetoric
+
+
+# Theoretical Expectations {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83" font-size="2em" font-type="serif"}
+
+1. Declining public services will reduce patients' reported experiences 
+2. Declining public services will increase support for the populist right among affected voters 
+  3. The effects of declining public services will be more pronounced when such declines can be linked to an increase in immigration
+
+
+
+# The British Context {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+
+- The UK's **National Health Service** (NHS) is a universal health service, free at the point of care
+- The NHS is a core public service that is highly salient to voters
+- The NHS has been under increasing strain in recent years
+  - Facilities closures
+  - Staff shortages
+  - Long waiting times
+
+![](images/brexit_bus.png){.absolute .fragment bottom="100" right="0" align="bottom" width="350" height="250"}
+
+- The NHS has been a key issue in recent elections/referenda
+- Valence issue – vast majority of citizens favour the NHS, and higher spending on the NHS
+- All parties favour the NHS in its current form (including populist right parties)
+
+
+## How Good or Bad are NHS Services? {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+
+<br>
+<img src="images/yougov_NHS_approval.png" 
+        width="800" 
+        height="500" 
+        class="center"
+        right="120"
+        style="display: block; margin: auto" />
+        <em></em>
+
+
+## What Should the Government Spend More On? {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+
+<br>
+<img src="images/yougov_healthcare_government_handling.png" 
+        width="800" 
+        height="500" 
+        class="center"
+        right="120"
+        style="display: block; margin: auto" />
+        <em></em>
+  
+
+
+
+
+# Data {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+- GP practice closures in England from NHS Digital
+- GP-Patient Survey from Ipsos 
+  - Practice-level data on patient experience and satisfaction
+- Understanding Society Panel (Secure Access)
+- British Election Study Panel 
+- Annual data on migration from Office of National Statistics (ONS)
+
+# Causal Identification {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+
+- We want to identify the causal effect of experiencing a GP practice closure on outcomes of interest
+  - Yet, closures are not random (recruitment issues, health outcomes, etc.)
+  - We need to control for confounding factors
+- **Treatment group:** individuals in areas where a GP practice has closed
+- **Control group:** individuals in areas where a GP practice has not **yet** closed
+- We use a staggered difference-in-differences design
+  - Geographic and Temporal Variation
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Treatment & Control Groups {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"} 
+
+- We compare outcomes among individuals in areas that experience a closure to outcomes in areas where individuals have not **yet** experienced a closure
+
+<div id="container">
+<img src="images/MSOA_closures_treatment_schedule.png" 
+        class="center"
+        right="120"
+        top="0"
+        width="800"
+        height="500"
+        bottom="100"
+        style="display: block; margin: auto" />
+</div>
+
+
+
+
+# GP Practice Closures {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"} 
+
+
+::: columns
+
+:::: {.column width=40%}
+
+<br>
+
+- We focus on the closure of General Practitioner (GP) surgeries in England
+- Since 2013, nearly 1,700 practices have closed in England
+
+::::
+
+:::: {.column width=60%}
+
+
+
+<div id="container">
+<img src="images/GP_closures_2013_2021.png" 
+        class="center"
+        right="120"
+        top="0"
+        width="500"
+        height="600"
+        bottom="100"
+        style="display: block; margin: auto" />
+</div>
+
+::::
+
+:::
+
+
+# GP Practice Closures {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"} 
+
+- Millions of patients have been affected by practice closures
+
+<div id="container">
+<img src="images/patients_affected_by_closures.png" 
+        class="center"
+        right="120"
+        top="0"
+        width="800"
+        height="500"
+        bottom="100"
+        style="display: block; margin: auto" />
+</div>
+
+
+# Estimation {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+- We estimate the effect of GP practice closures on outcomes of interest using a variety of estimation strategies:
+  + Matrix Completion [@athey2021matrix]
+  + Interactive Fixed Effects [@bai2009panel]
+  + Mahalanobis Matching [@imai2023matching]
+  + Covariate-balancing Propensity Score Matching [@imai2014covariate]
+  + Random Forests (for heterogenous treatment effects)
+
+# Results {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+
+Results are presented as event series plots, where the event is the closure of a GP practice and the y-axis is the estimated coefficient at time *t* relative to the event
+
+
+
+# Patient Experiences {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+- The Effects of Practice Closures on Patient Experiences in Neighboring Practices (GP Patient Survey Data)
+
+<div id="container">
+<img src="images/MC_estimate_patient_satisfaction_overall_and_apt.png" 
+        width="800" 
+        height="500" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+
+
+
+
+# Vote Intention {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+The Effects of Practice Closures on Vote Intention for a Populist Right Party (Understanding Society Panel Data)
+
+<div id="container">
+<img src="images/MC_estimates_RRW_vote_intention_USOC_data.png" 
+        width="800" 
+        height="480" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+
+# Vote Intention {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+The Effects of Practice Closures on Vote Intention for a Populist Right Party (BES Panel Data)
+
+
+<div id="container">
+<img src="images/MC_estimates_RRW_vote_intention_BES_data_GP_closures.png" 
+        width="800" 
+        height="480" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+# Do Voters Move to Labour? {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+<div id="container">
+<img src="images/MC_estimates_Labour_party.png" 
+        width="800" 
+        height="500" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+
+# Do Voters Move to Labour? {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+<div id="container">
+<img src="images/subplot_likelihood_voting_for_UKIP_Labour_FE_estimates.png" 
+        width="1000" 
+        height="570" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+# Conditional Treatment Effects {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+- The effects of declining public services are more pronounced when such declines can be linked to an increase in immigration 
+- When voters perceive that immigrants are competing for scarce public services, they are more likely to shift to the populist right
+  - This is consistent with the populist right's anti-immigrant and nativist rhetoric 
+
+
+# How Does UKIP Frame NHS Declines? {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+- We use topic modeling to identify press releases from the UK Independence Party (UKIP) that mention the NHS 
+
+<div id="container">
+<img src="images/topic_model_output_ukip_NHS_press_releases.png" 
+        width="750" 
+        height="500" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+
+## Heterogenous Treatment Effects {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+- Most important features predicting a switch to the populist right using Random Forests
+- Annual data from ONS on migration and the number of migrants registering at a GP practice for the first time 
+
+<div id="container">
+<img src="images/feature_importance_random_forests.png" 
+        width="850" 
+        height="450" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+
+# Conclusions {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+
+- Robust evidence that direct experience with deteriorating public services increases support for the populist right
+- Rather than shifting support to the party that "owns" the issue of public services (e.g. Labour), voters turn against 'mainstream' parties
+- Populist right parties can capitalize on dissatisfaction with public service delivery to increase their support
+  - Particularly when the decline in public services can be linked to an increase in immigration 
+  - anti-establishment, anti-immigrant/nativist rhetoric
+
+
+- **Key Takeaway:** In addition to economic and cultural factors, we should also consider how poor performance of core public services fuels populist right support 
+
+
+
+
+# References 
+
+<div id="refs"></div>
+
+
+
+
+
+
+
+
+
+
+

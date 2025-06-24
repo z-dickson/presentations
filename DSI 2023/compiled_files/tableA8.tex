@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{Effects of Infection on Infected Legislators Only}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lcc}
+\toprule
+  & without controls & with controls\\
+\midrule
+ATT.avg & -0.388 & -0.390\\
+S.E. & 0.159 & 0.158\\
+CI.lower & -0.699 & -0.700\\
+CI.upper & -0.076 & -0.080\\
+p.value & 0.015 & 0.014\\
+\addlinespace
+Observations & 13237.000 & 13237.000\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}Standard errors presented in parentheses. Model 1 uses interactive fixed effects without controls and Model 2 uses interactive fixed effects with controls. Estimations rely on the Fect library in R.}\\
+\end{tabular}}
+\end{table}

@@ -1,0 +1,417 @@
+%-------------------------
+% Resume in Latex
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{fontawesome}
+\usepackage{wasysym}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fontawesome}
+% <================ for \faGithub github symbol
+%\usepackage{etoolbox} % <====================== already loaded in class
+\newcommand{\github}[1]{%
+   \href{#1}{\faGithubSquare}%
+}
+\makeatother
+
+
+\usepackage[authordate,bibencoding=auto,backend=biber,natbib,doi=false,isbn=false,url=false,eprint=false, maxnames=99]{biblatex-chicago}
+\addbibresource{ref.bib} % Your .bib file
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\cvgithub}[1]{\renewcommand{\cvgithub}{#1}}
+
+
+
+\begin{document}
+
+
+\begin{center}
+    
+
+\textbf{\huge \scshape Zachary P. Dickson} \\
+\bigskip
+%\begin{flushright}
+   \faLinkedin \href{https://www.linkedin.com/in/zachary-dickson-934b1381/}{\ul{ zachary-dickson}}\\
+\faGooglePlus \href{mailto:zachdickson94@gmail.com}{\ul{ zachdickson94@gmail.com}}\\
+
+ \faGithub \href{https://github.com/z-dickson}{\ul{ github.com/z-dickson}}\\
+  \faTwitter \href{https://twitter.com/sachary_}{\ul{twitter.com/sachary\_}} \\
+ 
+ \faEnvelope \href{mailto:z.dickson@LSE.ac.uk}{ z.dickson@lse.ac.uk} \\
+
+ \href{https://z-dickson.github.io/}{\color{blue}https://z-dickson.github.io/}
+
+\begin{flushright}
+ \textit{Updated \today} 
+\end{flushright}
+
+\end{center}
+\bigskip
+\section{Academic Appointments}
+  \resumeSubHeadingListStart
+    \resumeSubheading    
+      {\href{https://www.lse.ac.uk/Methodology/People/Academic-Staff/Zach-Dickson/Zach-Dickson}{\ul{LSE Fellow in Quantitative Methodology}}}{London, UK}
+      {\href{https://www.lse.ac.uk/}{\ul{London School of Economics and Political Science}}}{April 2024--Current}
+      \resumeItem{\href{https://www.lse.ac.uk/Methodology}{Department of Methodology}}           %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+ \resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading    
+      {\href{https://www.lse.ac.uk/government/people/research-staff/zachary-dickson}{\ul{Postdoctoral Research Fellow}}}{London, UK}
+      {\href{https://www.lse.ac.uk/}{\ul{London School of Economics and Political Science}}}{Nov. 2022--March 2024}
+      \resumeItem{\href{https://www.lse.ac.uk/government}{Department of Government}}          %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+ \resumeSubHeadingListEnd
+
+\section{Academic Affiliations}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.lse.ac.uk/DSI}{\ul{Data Science Institute (LSE)}}}{London, UK}
+      {\href{https://www.lse.ac.uk/DSI/People}{\ul{Research Affiliate}}}{Nov. 2022--Current}
+             %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+ \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.gla.ac.uk/}{\ul{University of Glasgow}}}{Glasgow, UK}
+      {PhD, Politics}{2020--2024}
+          \resumeItemListStart
+            \resumeItem{Thesis: Social Identity, Group Representation, and Unequal Responsiveness in the US and UK}
+            \resumeItem{Supervised by: \href{https://www.gla.ac.uk/schools/socialpolitical/staff/sergiugherghina/}{\ul{Sergiu Gherghina}} and \href{https://www.sergipardos.com/}{\ul{Sergi Pardos-Prado}}}
+            %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+        \resumeItemListEnd
+    \resumeSubheading
+      {\href{https://www.ed.ac.uk/}{\ul{University of Edinburgh}}}{Edinburgh, UK}
+      {MSc, International Relations}{2018--2019}
+          \resumeItemListStart
+            \resumeItem{Dissertation: The Ideology of Meritocracy in Western Immigration Discourse}
+            %\resumeItem{Supervised by: Sergiu Gherghina and Sergi Pardos-Prado}
+            %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+        \resumeItemListEnd
+    \resumeSubheading
+      {\href{https://www.neiu.edu/}{\ul{Northeastern Illinois University}}}{Chicago, US}
+      {BA, Political Science}{2013--2018}
+        \resumeItemListStart
+            \resumeItem{GPA: 3.79/4.0}
+            %\resumeItem{Supervised by: Sergiu Gherghina and Sergi Pardos-Prado}
+            %\resumeItem{Award/Achievement/Involvement 2}
+            %\resumeItem{Award/Achievement/Involvement 3}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+  \section{Publications}
+
+  \begin{enumerate}
+      \item \fullcite{dickson2024elite}
+      \item \fullcite{dickson2024going}
+      \item \fullcite{dickson2024effects}
+      \item \fullcite{dickson2024gender}
+      \item \fullcite{youth_gender_gap}
+  \end{enumerate}
+
+\section{Work in Progress}
+  \begin{enumerate}
+      \item \fullcite{dickson2024public}
+      \item \fullcite{WEP_reform}
+      \item \fullcite{dickson_benchmarking}
+      \item \fullcite{dickson_energy}
+      \item \fullcite{dickson_inequality}      
+      \item \fullcite{rodriguez_field_experiment}
+  \end{enumerate}
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.gla.ac.uk/}{\ul{London School of Economics}}}{London, UK}
+      {Lecturer/Seminar Leader}{2024--2025}
+      \resumeItemListStart
+        \resumeItem{Fundamentals of Social Sciences Research Design (Eval: 4.7/5)} 
+        \resumeItem{Data Science Applications to Politics Research
+        }
+        \resumeItem{PhD Workshop: \href{https://github.com/z-dickson/my580-causal-inference}{\color{blue} Causal Inference Methods for Observational Data}}
+        \resumeItem{PhD Workshop: \href{https://github.com/z-dickson/my580-applied-language-models}{\color{blue} Applied Language Models for Social Science Research}}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+      {\href{https://www.gla.ac.uk/}{\ul{University of Glasgow}}}{Glasgow, UK}
+      {Teaching Assistant}{2020--2022}
+      \resumeItemListStart
+        \resumeItem{Comparative Politics}
+        \resumeItem{Introduction to Politics (x2)}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {\href{https://www.strath.ac.uk/}{\ul{University of Strathclyde}}}{Glasgow, UK}
+      {Teaching Assistant}{2021--2022}
+      \resumeItemListStart
+        \resumeItem{Machine Learning for Data Analytics}
+        \resumeItem{Quantitative Methods 2: Statistics \& Analysis}
+        \resumeItem{Politics: Decision Making \& Outcomes}
+        \resumeItem{Quantitative Methods 1: Statistics \& Analysis}
+      \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+%\section{Projects}
+
+   % \resumeSubHeadingListStart
+     % \resumeProjectHeading
+        %  {\textbf{Project Title 1} $|$ \emph{Technologies used}}{June 2021 -- Present}
+        %  \resumeItemListStart
+        %    \resumeItem{Project Description 1}
+        %    \resumeItem{Project Description 2}
+        %  \resumeItemListEnd
+
+     % \resumeProjectHeading
+      %    {\textbf{Project Title 2} $|$ \emph{Technologies used}}{June 2021 -- Present}
+       %   \resumeItemListStart
+        %    \resumeItem{Project Description 1}
+        %    \resumeItem{Project Description 2}
+       %   \resumeItemListEnd
+         
+
+   % \resumeSubHeadingListEnd
+\section{Research Assistance Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://www.lse.ac.uk/}{\ul{London School of Economics}}}{London, UK}
+      {Research Assistant for Sara B. Hobolt \& James Tilley}{2023–-2024}
+      \resumeItemListStart
+        \resumeItem{NLP \& Data Visualization}
+
+      \resumeItemListEnd
+    \resumeSubheading
+      {\href{https://www.comparativecandidates.org/}{\ul{Comparative Candidates Study}}}{Glasgow, UK}
+      {Research Assistant for Wolfgang Rudig}{August 2021 – October 2021}
+      \resumeItemListStart
+        \resumeItem{Created a dynamic measure of ideology using legislators' tweets and probabilistic classification with BERT word embeddings}
+
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+    
+    
+    
+    
+\section{Industry Experience (Non-academic)}
+
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AT\&T, Inc.}{Chicago, Illinois, US}
+      {Workforce Analyst}{2015--2018}
+      \resumeItemListStart
+       	 \resumeItem{ Implemented Six Sigma, Lean, and Agile methodologies for process improvement, project optimization, and workforce forecasting
+ 	 	 \resumeItem{Developed workflow changes, operational guidelines, problem assessments and root cause analysis} 
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {AT\&T, Inc.}{Chicago, Illinois, US}
+      {Customer Service Intern}{2013--2015}
+    \resumeItemListStart
+        \resumeItem{Performed tech support, troubleshooting and problem resolution at inbound customer care center}  
+        \resumeItem{Managed onboarding and training processes for new hires – including both technical and soft-skills training workflows and manuals}}
+        
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, Julia, R, SQL, Java, Go, Git, Latex, Markdown}\\
+     \textbf{Statistics}{: Bayesian \& Frequentist Inference; Time-series and panel data analysis} \\
+     \textbf{Causal Inference}{: observational and experimental -- RDD, IV, DiD} \\
+     \textbf{Data Science}{: NLP (Word2Vec, LDA, {Transformers), Machine learning (Tensorflow, scikit-learn, XGBoost)}
+    }}\\
+    \textbf{Language Models}{: {\href {https://huggingface.co/z-dickson}{\color{blue} Hugging Face}}
+    }}
+ \end{itemize}
+
+
+
+\section{Conference Presentations}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Midwest Political Science Association -- Annual Conference: }{\textit{2022, 2023}} \\
+     \textbf{European Consortium for Political Research -- Joint Sessions Workshop: }{\textit{2022}} \\
+     \textbf{American Political Science Association -- Annual Conference:}{\textit{ 2022, 2024}} \\
+     \textbf{European Consortium for Political Research -- General Conference:}{\textit{ 2022}} \\
+     \textbf{European Political Science Association -- General Conference:}{\textit{ 2023, 2024}} \\
+     \textbf{European Consortium for Political Research -- Standing Group on Parliaments: }{\textit{ 2023}} \\
+     \textbf{PolMeth Europe: }{\textit{ 2022, 2023}} \\
+     \textbf{Political Studies Association -- Standing Group on Parliaments: }{\textit{2023}}\\
+     \textbf{Elections, Public Opinion and Parties (EPOP) General Conference }{\textit{2024}}\\
+     %\textbf{Frameworks}{: X, X, X} \\
+     %\textbf{Developer Tools}{: X, X, X} \\
+     %\textbf{Libraries}{: X, X, X} \\
+     %\textbf{Applications}{: X, X, X}
+    }}
+ \end{itemize}
+
+
+
+  \section{Invited Lectures \& Presentations}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{LSE Political Behaviour Seminar - 2023 }{\textit{ (Elite Cues and Noncompliance)}} \\
+     \textbf{LSE Data Science Institute (DSI) - 2023 }{\textit{ (COVID-19 Infection and Elite Discourse on Social Media)}} \\
+     \textbf{LSE Government Political Behavior Lecture -  2023} {\textit{ (Machine Learning Methods for Social Scientists)}} \\
+     \textbf{Machine Learning Methods for Social Scientists  }{\textit{ (Large Language Models in Political Science)}} \\
+     \textbf{LSE Department of Methodology Seminar Series - 2024 }{\textit{ (Public Service Decline and Support for the Populist Right)}} \\
+    }}
+ \end{itemize}
+
+  \section{Seminars/Workshop Organization}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{2023-2024 LSE Political Behaviour Work-in-Progress Seminar }{\textit{(co-organizer)}} \\
+    }}
+    \small{\item{
+     \textbf{2024-2025 LSE Political Behaviour \& Methodology Work-in-Progress Seminar }{\textit{(co-organizer)}} \\
+    }}
+ \end{itemize}
+ 
+\section{Research Grants}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{British Academy/Leverhulme Research Grant 2024-25 (£6,500)}{} 
+     \begin{itemize}
+        \item \textit{Energy Prices and Backlash to Climate Policies}
+     \end{itemize}
+     %\textbf{Frameworks}{: X, X, X} \\
+     %\textbf{Developer Tools}{: X, X, X} \\
+     %\textbf{Libraries}{: X, X, X} \\
+     %\textbf{Applications}{: X, X, X}
+    }}
+ \end{itemize}
+
+
+\section{Peer Review}
+
+$\bullet$ \textit{American Journal of Political Science} $\bullet$ \textit{Journal of Politics} $\bullet$ \textit{Political Science Research and Methods} $\bullet$ \textit{Comparative Political Studies} $\bullet$ \textit{Environmental Politics} $\bullet$ \textit{British Journal of Political Science} $\bullet$ \textit{Electoral Studies} $\bullet$ \textit{European Journal of Political Research} $\bullet$ \textit{Political Behavior} $\bullet$ \textit{Political Studies} $\bullet$ 
+
+
+\section{References}
+
+%\textit{Available upon request}
+
+\begin{enumerate}
+    \item \textbf{Professor Sara B Hobolt, FBA}. Sutherland Chair in European Institutions. London School of Economics and Political Science. \href{mailto:s.b.hobolt@lse.ac.uk}{\color{blue}Email} \& \href{https://hobolt.com/}{\color{blue}Website}
+    \item \textbf{Professor Sergi Pardos-Prado}. Professor of Comparative Politics. University of Glasgow. \href{mailto:Sergi.Pardos-Prado@glasgow.ac.uk}{\color{blue}Email} \& \href{https://www.sergipardos.com/}{\color{blue}Website}
+%    \item \textbf{Dr. T. Murat Yildirim}. Associate Professor of Political Science. University of Stavanger. \href{mailto:murat.yildirim@uis.no}{\color{blue}Email} \& \href{http://www.tevfikmuratyildirim.com/}{\color{blue}Website}
+    \item \textbf{Dr. Florian Foos}. Associate Professor in Political Behaviour. London School of Economics and Political Science. Contact: \href{mailto:f.foos@lse.ac.uk}{\color{blue}Email} \& \href{http://www.florianfoos.net/}{\color{blue}Website}
+\end{enumerate}
+
+
+%-------------------------------------------
+\end{document}
+

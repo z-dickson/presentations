@@ -1,0 +1,205 @@
+---
+title: "The Radical Right and the Politicization of Climate Policy"
+subtitle: Presentation for UCD School of Politics and International Relations
+author: Zach Dickson 
+institute: London School of Economics
+bibliography: references.bib
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: images/LSE_logo.png
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: fade
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [simple, custom.scss]
+    footer: '<a>*Going Against the Grain: Climate Change as a Wedge Issue for the Radical Right*</a>'
+title-slide-attributes: 
+  data-background-image: images/covideu_logo.png
+  data-background-size: 15%
+  data-background-position: 2% 2%
+  beamer:
+    theme: Marburg
+    slide-level: 2
+    logo: images/LSE_logo.png
+---
+
+
+
+
+### The Radical Right and Climate Change
+
+::: {.r-stack}
+![](images/rishi_green.png){.fragment .absolute top=30 right=80 width="520" height="350"}
+
+![](images/green_libdems.png){.fragment .absolute bottom=25 right=50 width="420" height="250"}
+
+![](images/labour_prosperity.png){.fragment .absolute top=50 left=50 width="350" height="400"}
+
+![](images/reform_uk.png){.fragment .absolute bottom=50 left=150 width="650" height="450"}
+:::
+
+
+
+#  Party Competition and Wedge Issue Politics
+
+::: {.incremental}
+
+- **Party competition** is central to understanding policy outcomes
+- Parties compete on **issue ownership** [@belanger2008issue] and **entrepreneurship** [@vries2020political] 
+  - Issue owners are widely recognized as **experts** on the issue
+  - Entrepreneurial parties seek to **change the status quo** by politicizing new issues
+
+
+
+:::
+
+
+
+
+
+
+# Climate Change as a Wedge Issue
+
+
+*What would a wedge issue strategy look like?*
+
+::: {.incremental}
+
+1. **Issue attention**
+   - RR parties increase salience of climate issues
+2. **Adversarial positioning**
+   - RR parties take an oppositional stance on climate policy
+3. **Mobilizing potential**
+   - A significant share of voters hold sceptical views of climate change policies 
+
+::: 
+
+
+# Expectations 
+
+::: {.incremental}
+
+- Increase in **salience** of climate issues for radical right parties
+- RR parties will take an **adversarial position** on climate policy
+- A significant share of voters who *do not already* support the RR hold **sceptical views**
+
+
+::: 
+
+---
+
+## Research Design & Methods 
+
+::: {.incremental}
+
+- ~500k Party Press Releases from 76 parties (2010-2022)
+  - Includes over 50k press releases from radical right parties
+- European Social Survey data
+- UK and German Election Study Panel Data
+- **Text analysis** to measure salience and adversarial positioning
+  - Train and validate large language models for: 
+  - [Text classification](https://huggingface.co/z-dickson/CAP_multilingual)
+  - [Generative summarization](https://huggingface.co/z-dickson/bart-large-cnn-climate-change-summarization)
+
+:::
+
+![](images/huggingface.png){.absolute .fragment bottom=20 right=50 width="550" height="350"}
+
+---
+
+## Party Press Releases 
+
+
+
+![](images/ukip_press_release.png){fig-align="center"}
+
+
+# Results: Salience
+
+> Radical right parties are increasingly focusing on climate issues
+
+![](images/figure1.png){fig-align="center"}
+
+
+
+# Results: Adversarial Position
+
+> Radical right parties are uniquely oppositional on climate issues
+
+![](images/figure2.png){fig-align="center"}
+
+
+# Results: Mobilizing Potential
+
+> A significant share of voters across parties hold sceptical views
+
+![](images/figure3.png){fig-align="center"}
+
+
+
+# Vote Switching
+
+> Radical right parties are mobilizing voters 
+
+
+![](images/figure7.png){fig-align="center"}
+
+
+
+
+# Discussion 
+
+::: {.incremental}
+
+- Climate change is a **wedge issue** that divides mainstream coalitions
+- Radical right parties are increasingly **politicizing** climate change
+  - Increasing salience
+  - Taking adversarial positions
+  - Mobilizing voters
+
+::: 
+
+# How Can Mainstream Parties Respond?
+
+::: {.incremental}
+
+- **Appeasement**
+  - Germany and UK: Accommodating radical right positions on climate change
+  - **Risk**: Undermining climate policy and mainstream party credibility
+- **Address the Distributional Consequences of Climate Policy**
+  - Socially fair climate action 
+  - Failure to address the costs for lower- and middle-income groups risks backlash 
+- **Communicate Climate Policy in Terms of Security and Sovereignty**
+  - Reframe climate action not as sacrifice, but as a protection of national economic and social interests to counter radical right narratives
+
+
+
+:::
+
+
+## Thank You!
+
+
+- **Contact:** [z.dickson@lse.ac.uk](mailto:z.dickson@lse.ac.uk)
+- **Article:** Dickson & Hobolt (2024). [Going Against the Grain: Climate Change as a Wedge Issue for the Radical Right](https://journals.sagepub.com/doi/10.1177/00104140241271297). *Comparative Political Studies* 
+
+![](images/CPS_abstract.png){fig-align="center" width=50%}
+
+
+# References 
+
+<div id="refs"></div>
+
+
+
+
+
+
+
+
+
+
+

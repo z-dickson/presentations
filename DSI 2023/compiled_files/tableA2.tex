@@ -1,0 +1,28 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]},
+column{1}={halign=l,},
+column{2}={halign=c,},
+hline{10}={1,2}{solid, 0.05em, black},
+}                     %% tabularray inner close
+\toprule
+& Opposition Tweets \\ \midrule %% TinyTableHeader
+Total.tweets & \num{-0.18157}* \\
+& (\num{0.08436}) \\
+Age          & \num{-0.00427}  \\
+& (\num{0.00270}) \\
+Republican   & \num{-0.24108}* \\
+& (\num{0.11570}) \\
+Male         & \num{-0.09546}  \\
+& (\num{0.07595}) \\
+Num.Obs.     & \num{36722}     \\
+AIC          & \num{259110.3}  \\
+BIC          & \num{571613.6}  \\
+\bottomrule
+\end{talltblr}
+\end{table}

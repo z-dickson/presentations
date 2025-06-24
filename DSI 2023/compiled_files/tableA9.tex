@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{Effects of Infection on Total Number of Tweets}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lcc}
+\toprule
+  & without controls & with controls\\
+\midrule
+ATT.avg & 0.716 & 0.707\\
+S.E. & 0.397 & 0.395\\
+CI.lower & -0.062 & -0.067\\
+CI.upper & 1.494 & 1.481\\
+p.value & 0.071 & 0.073\\
+\addlinespace
+Observations & 36722.000 & 36722.000\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}Standard errors presented in parentheses. Model 1 uses interactive fixed effects without controls and Model 2 uses interactive fixed effects with controls. Estimations rely on the Fect library in R.}\\
+\end{tabular}}
+\end{table}

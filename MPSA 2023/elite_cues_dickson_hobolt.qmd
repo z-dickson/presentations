@@ -1,0 +1,212 @@
+---
+title: "Elite Cues and Mass Non-Compliance"
+subtitle: 80th Annual Midwest Political Science Association Conference
+author: Zachary P Dickson & Sara B Hobolt
+institute: London School of Economics
+bibliography: references.bib
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: images/LSE_logo.svg
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: convex
+    caption: true
+    tabularx: true
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [simple, custom.scss]
+    footer: <a href="images/main.pdf" target="_blank">*Elite Cues and Mass Non-Compliance* | Dickson & Hobolt</a> 
+title-slide-attributes: 
+  data-background-image: images/covideu_logo.png
+  data-background-size: 15%
+  data-background-position: 2% 2%
+---
+
+
+# Research Questions & Motivation {auto-animate="true"}
+
+* To what extent can elites motivate *non-compliant* behavior during the COVID-19 Pandemic? 
+  + Importance of elite cues during times of crisis
+  + Survey experiments vis-a-vis real world data
+  + Trump & incitement on January 6th, 2021 
+
+
+
+# Background -- what do we already know? {auto-animate="true" cite-color="#172c83"}
+
+ * Elite cues have differential effects on adherence to social distancing in Democratic and Republican counties 
+   + @grossman2020political show that US state governors' were more effective at motivating social distancing behavior in Democratic-leaning counties than Republican-leaning counties
+   + @bisbee2022objective show that reductive messages from President Trump play a similar role as objective information (COVID-19 cases/deaths) in influencing social distancing behavior
+ * Non-compliance behavior? 
+ * How credible are partisan counterfactuals (e.g. @bisbee2022objective; @grossman_political_2020)?  
+---
+
+## Research Design {auto-animate="true" link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+::: {.r-fit-text}
+* We leverage the fact that Trump called for the "liberation" of three specific states (MN, MI & VA) on April 17, 2020
+* Data -- mobility [@facebook_mobility] & arrests [@FBI_arrests] 
+* Time horizon -- state lockdowns 
+:::
+
+::: {.r-stack}
+![](images/trump_liberate_tweet_VA.png){.absolute .fragment width="650" height="220" align="left" left="50"}
+
+![](images/trump_liberate_tweet_MI.png){.absolute .fragment width="700" height="250" align="center" bottom="200" rotate="20"}
+
+![](images/trump_liberate_tweet_MN.png){.absolute .fragment width="600" height="300" align="right" bottom="0" right="250" rotate="-20"}
+:::
+---
+
+
+## How were the messages received? {auto-animate="true" link-color="#172c83" cite-color="#172c83"}
+::: {.r-fit-text}
+<img src="images/topic_models_top_10.png" 
+        alt="Picture" 
+        width="900" 
+        height="50" 
+        style="display: block; margin: 3 auto" />
+        <em> <sub> __Note__: Topic models include all quote tweets (143,171) of Trump's LIBERATE tweets. A detailed description of text pre-processing and modeling methods are available in [Appendix A](images/main.pdf). </sub> </em>
+
+  
+:::
+---
+
+
+## Did the public respond? {auto-animate="true" body-bg="white" link-color="#172c83" cite-color="#172c83"}
+::: {.r-fit-text}
+<br>
+<img src="images/google_search_v2.png" 
+        alt="Picture" 
+        width="1000" 
+        height="400" 
+        style="display: block; margin: 3 auto" />
+        <em> <sub> __Note__: Google Trends data are normalized and scaled according to time period and geography in
+order to represent the relative popularity of a search term on a range between 0 and 100 [@google2022]. </sub> </em>
+:::
+---
+
+
+## Identification {auto-animate="true" link-color="#172c83" cite-color="#172c83"}
+::: {.r-fit-text}
+* Generalized Difference-in-Differences
+  + Treatment group -- Counties in states where Trump called for liberation
+  + Control group -- Counties in states where Trump did not call for liberation
+  + Estimand = *targeted* cue
+* Time -- State lockdowns
+* Threats to identification 
+  + Exclusion criteria -- protests and other state level characteristics
+  + Time-varying confounders -- COVID-19 cases and deaths
+* Exogeneity assumption 
+  + Trump's call for liberation not likely to be a response to local conditions ([Appendix B](images/main.pdf))
+:::
+
+## Results -- Mobility {auto-animate="true" link-color="#172c83" cite-color="#172c83"}
+
+<br>
+
+::: {#tbl-panel layout-ncol=2}
+|  | Full State | Democratic Counties | Republican Counties |
+| ------ | ----- | ------- | ------ |
+| Treatment  | 2.284* | 1.005 |   2.706**  |
+| |  (0.906) |   (0.631)   | (0.854)  |
+| Obs. | 29,064 | 6,132 | 22,932 |
+| R2 | 0.764 | 0.825 | 0.714 |
+
+: <u>_DV: Mobility_</u> {#tbl-first}
+
+
+| Full State | Democratic Counties | Republican Counties |
+| ----- | ------- | ------ |
+| -1.128* | -0.660 |   -1.336**  |
+|  (0.502) |   (0.438)   | (0.476)  |
+| 29,064 | 6,132 | 22,932 |
+| 0.883 | 0.904 | 0.869 |
+
+: <u>_DV: Stay-at-home Compliance_</u> {#tbl-second}
+
+Cummulative estimates: Mobility
+:::
+__Note__ : + p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001
+
+<sub>*Estimates are from two-way fixed effects models with county and time fixed effects. Standard errors are clustered by state and time. See [Appendix D](images/main.pdf) in paper for full results.* </sub>
+---
+
+
+
+
+## Dynamic Results -- Mobility {body-bg="white" link-color="#172c83" cite-color="#172c83"}
+<br>
+<img src="images/Matrix_completion_Repub_counties_dynamic_1.png" 
+        width="780" 
+        height="490" 
+        class="center"
+        right="50"
+        style="display: block; margin: auto" />
+  
+
+<sub> __Note__: Matrix completion estimates and 95% confidence intervals. Estimates for the effect of Trump's calls for Liberation on Mobility in Republican counties while using only Republican counties elsewhere as the control group. </sub>
+        
+
+# Crime {auto-animate="true" link-color="#172c83"}
+::: {.r-fit-text}
+ * We apply the same empirical strategy at the state level to arrests for crimes related to sentiment expressed in analysis of quote-tweets of Trump's tweets
+   + NIBRS data [@FBI_arrests] on arrests for Disorderly conduct; Assault (Aggravated and Simple); Destruction/Damage/Vandalism of Property
+ * We use race as a crude proxy for partisanship
+   + 6% of black voters and 28% of Hispanic voters supported Trump in 2016
+   + 54% of whites, including 62% of white men
+ * Generalized Difference-in-Differences
+   + Treatment group -- Arrests of whites in MN, MI and VA 
+   + Control group -- Arrests of whites in states under local lockdowns (40 states)
+   + Estimand = *targeted* cue
+   + Matrix completion for inference [@athey2021matrix]
+:::
+---
+
+## Results -- Crime {body-bg="white" link-color="#172c83" cite-color="#172c83"}
+
+
+
+![](images/Matrix_completion_white_arrests_dynamic_subplots.png){width="\\textwidth" height="130mm" align="left"} 
+
+
+<sub> __Note__: Matrix Completion Estimates and 95% Confidence Intervals. Arrests for Disorderly conduct; Assault (Aggravated and Simple); Destruction/Damage/Vandalism of Property.  </sub>
+
+
+# Discussion & Concluding Remarks {auto-animate="true" cite-color="#172c83"}
+::: {.r-fit-text}
+ * Trump's calls for liberation led to an increase in non-compliant behavior
+   + The effects were concentrated in red counties (mobility) and among whites (crime)
+ * Elite cues can motivate non-compliant behavior
+    + We've seen this before (i.e. Jan 6th), but identification is challenging in observational data
+    + Estimates are conservative given control groups
+ * Limitations & directions for future research
+    + is our case (i.e. Trump/USA) unique?
+:::
+
+
+# Thank you!
+
+
+
+# Robustness {auto-animate="true"}
+::: {.r-fit-text}
+ * Mobility 
+   + Alternative measure of mobility -- Google mobility data ([Appendix E](images/main.pdf))
+     - Retail & recreation, and Aggregate mobility 
+   + Alternative estimation strategy -- first-difference ([Appendix F](images/main.pdf))
+ * Crime 
+   + No effect of cues on arrest rate of other races ([Appendix I](images/main.pdf))
+   + No effect of cues on arrest rate of entire state population ([Appendix J](images/main.pdf))
+   + Alternative measurement of arrests -- Two-day moving average ([Appendix K](images/main.pdf))
+   + Alternative modeling strategy -- TWFE with state & date fixed effects ([Appendix K](images/main.pdf))
+:::
+
+
+
+
+# References 
+
+<div id="refs"></div>

@@ -1,0 +1,22 @@
+---
+title: "EPSA Feedback"
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+---
+
+**Discussant:** Francesco Colombo (Aarhus University)
+
+- highlight the patient satisfaction results - these add considerably to the analysis 
+- why/how are public services different from welfare policies? There are many papers that feature the effects of welfare cuts, how are public services different? (elaborate treatment, should it be different?) 
+- Estimation of conditional average treatment effects come out of nowhere - more theory on why we would expect immigration to magnify the effects (add in party press release examples from UKIP to show that the populist right frames public service deprivation as a competition between immigrants and natives)
+- Would like to see CATE for Labour 
+- Is the state really not capable or simply unwilling?  
+- Elaborate mechanism - why do people not go to Labour?  
+- Would be nice to see additional outcomes using attitudes on welfare chauvinism 
+- doesn't like the NHS figure (1) - might raise more questions
+- Provide the cumulative effects over time on treatment 
+- more discussion on CATE (~0 coefficients don't make sense)
+- Do people move to avoid closures or move closer to GPs? (probably not) 

@@ -1,0 +1,21 @@
+\begin{table}[!h]
+\centering
+\caption{Effect of COVID-19 Infection on Total Tweets}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lcccc}
+\toprule
+  & IVHS & Log & Covid Cases & w/ Cases and Deaths\\
+\midrule
+ATT.avg & 0.375 & 0.375 & 0.374 & 0.377\\
+S.E. & 0.224 & 0.224 & 0.224 & 0.224\\
+CI.lower & -0.065 & -0.065 & -0.065 & -0.062\\
+CI.upper & 0.815 & 0.815 & 0.814 & 0.816\\
+p.value & 0.095 & 0.095 & 0.095 & 0.092\\
+\addlinespace
+Observations & 36722.000 & 36722.000 & 36722.000 & 36722.000\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}makecell[l]{Standard errors are presented in parentheses. All results presented use \matrix completion methods and are estimated using the FECT library in R (Liu, Wang, Xu 2022).\ Models 1 and 2 use an inverse hyperbolic sine transformation and log+.1 transformation, \ respectively. Model 3 includes the number of COVID-19 cases per day in each legislator's \ constituency state. Model 4 includes the number of new cases and new deaths in each \ legislator's constituency state.}}\\
+\end{tabular}}
+\end{table}

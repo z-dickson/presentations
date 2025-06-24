@@ -1,0 +1,91 @@
+---
+title: "Research Agenda"
+subtitle: ''
+author: Zach Dickson 
+institute: London School of Economics
+bibliography: references.bib
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: images/LSE_logo.png
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: fade
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [simple, custom.scss]
+    footer: '<a>*Research Trajectory*</a>'
+title-slide-attributes: 
+  data-background-size: 15%
+  data-background-position: 2% 2%
+  beamer:
+    theme: Marburg
+    slide-level: 2
+    logo: images/LSE_logo.png
+---
+
+
+# Research Agenda
+
+
+*Three key themes*
+
+::: {.incremental}
+
+- **The rise of right-wing populism**
+  - Cultural drivers of support 
+  - Inequality -- spatial and distributional effects     
+- **Climate Change politics and policy** 
+  - Distributional consequences of climate change policies
+  - How do we get voters to accept costly climate policies?  
+- **Political communication and social media**
+  - The effects of political communication on public opinion/behaviour
+  - Social media, political extremism and gender backlash 
+
+::: 
+
+---
+
+## Climate Change and Environmental Politics 
+
+
+**Working Projects:**
+
+1. *Energy Prices and Policy Support* (recently funded by British Academy)
+2. *Benchmarking Support for the EU Green Deal* (funded by Volkswagen Foundation)
+3. *Civic education on Climate Change: A coordinated solution for a coordinated problem?* (funded by Volkswagen Foundation)
+
+**Publications:**
+
+1. [Going against the grain: Climate change as a wedge issue for the radical right](https://doi.org/10.1177/0010414024127129)
+
+- *Quote:* The radical right increasingly uses climate change policy as a wedge issue to divide existing coalitions and attract climate-sceptic voters 
+
+![](images/dickson_cps_climate_change_position.png){.absolute bottom=50 right=0 width="500" height="300"}
+
+---
+
+
+## Right-wing Populism
+
+**Working Projects:**
+1. *Public Service Decline and Support for the Populist Right* (funded by ERC)
+2. *Normalising the Radical Right? The 2024 UK Race Riots* 
+3. *Inequality and Support for Right-wing Populism in Britain* 
+
+
+**Publications:**
+
+1. [Elite Cues and Noncompliance](https://doi.org/10.1017/S0003055424000741)
+  a. *Quote:* Despite whether Donald Trump means what he says, his supporters take him seriously and will act on his demands 
+2. [The effects of COVID-19 infection on opposition to COVID-19 policies: evidence from the US congress](https://doi.org/10.1080/10584609.2024.2364072)
+  a. *Quote:* US congressmemebers will update their beliefs in response to personal implications  
+3. [The youth gender gap in support for the far right](https://doi.org/10.1080/13501763.2025.2481181)
+  a. *Quote:* There is a bigger gender gap among younger voters in support for the radical right than in previous decades. 
+
+
+
+
+
+# Thank you!

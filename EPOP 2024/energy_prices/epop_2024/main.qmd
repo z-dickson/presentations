@@ -1,0 +1,218 @@
+---
+title: "Energy Prices and Support for Climate Change Policies"
+subtitle: EPOP - 2024
+author: Zach Dickson 
+institute: London School of Economics
+bibliography: references.bib
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: images/LSE_logo.png
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: fade
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [simple, custom.scss]
+    footer: <a>Energy Prices and Support for Climate Change Policies</a>
+---
+
+
+::: {.r-stack}
+![](images/motivation8.png){.absolute .fragment top="0" left="10" align="left" width="650" height="350"}
+
+![](images/motivation7.png){.absolute .fragment top="10" right="20" align="left" width="850" height="300"}
+
+![](images/motivation3.png){.absolute .fragment bottom="0" left="5" align="bottom" width="550" height="300"}
+
+![](images/motivation10.png){.absolute .fragment top="0" right="20" align="top" width="850" height="300"}
+
+![](images/motivation6.png){.absolute .fragment top="0" left="0" align="left" width="900" height="300"}
+
+![](images/motivation9.png){.absolute .fragment top="170" left="10" align="left" width="900" height="300"}
+
+![](images/motivation5.png){.absolute .fragment bottom="40" right="10" align="bottom" width="900" height="250"}
+:::
+
+
+
+
+
+# Household Energy Costs {auto-animate="true" link-color="#172c83" body-bg="white" cite-color="#172c83" height=100}
+
+- What's the relationship between household energy costs and support for climate change policies?
+- Past work finds that when voters blame to the government for rising energy prices, they express opposition by protesting [@mcculloch2022exploration], turning against renewables [@aklin2021renewables] or even voting for populist right parties [@voeten2024energy] 
+- Yet, not all price increases are due to government action
+  - Global energy prices are volatile and can be driven by factors such as geopolitical events, supply chain disruptions, and weather events
+  - In such cases, voters may not directly attribute blame to the government
+
+- **Research Question:** Do rising energy costs affect support for climate change policies when prices are exogenous? 
+---
+
+
+
+
+
+# Household Energy Costs  {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+
+- Household energy costs represent a key component of the cost of living
+- As energy costs consume a larger share of household income, disposable income decreases and households are more sensitive to energy price shocks
+- Theories of retrospective voting suggest that voters are more likely to punish the incumbent when they perceive that the government is responsible for personal price increases [@healy2017digging; @fiorina1978economic]
+- Similarly, voters may also turn against climate change policies if they perceive that these policies are responsible for rising energy prices [@aklin2021renewables; @voeten2024energy]
+
+
+
+# Hypothesis {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+
+- **Expectation:** Rising household energy costs reduce support for pro-environmental parties, climate change policies & renewable energy production
+
+# Data {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+::: {.r-fit-text}
+
+
+
+- **Descriptive Data**
+  + ONS data on credit defaults for energy bills [@ONS_credit_card_spending_failure]
+  + Google Trends data on searches for help with energy bills [@google_trends]
+
+- **Household Energy Costs**
+  + 26 million energy efficiency certificates from the UK government between 2012-2024 [@energy_performance_data]
+  + Matched with energy consumption data at the postcode level from the ONS [@ONS_energy_consumption]
+  + Measured as a proportion of net household income, taken from survey data 
+
+- **Support for Climate Change Policies**
+  + British Election Study Panel data on support for climate change policies and the Green Party 
+  + BEIS Public Attitudes Tracker for attitudes towards renewable energy production [@BEIS_attitudes_tracker]
+
+
+
+:::
+
+# Empirical Strategy {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+- Instrumental Variable (IV) Estimation - Wholesale next-day electricity prices from OFGEM [@ofgem_energy_data]
+  + IV strategy exploits the exogeneity of global energy prices to the UK, with the UK being a price-taker in the global energy market
+  + Assumptions for IV strategy: 
+    - *Relevance:* Energy prices affect household energy costs (first stage F-stat > 10)
+    - *Exclusion restriction:* Energy prices only affect support for climate change policies through household energy costs
+- Estimation: 2SLS & TWFE regressions
+
+
+## Energy Prices in the UK {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+::: {.r-fit-text}
+- While the UK government has implemented measures to mitigate the impact of rising energy prices on households, these measures are temporary and tend to be more beneficial to wealthier households [@fetzer2023distributional]
+
+
+<img src="images/fuel_prices_ONS.png" 
+        width="890" 
+        height="480" 
+        class="center"
+        right="120"
+        style="display: block; margin: auto" />
+        <em></em>
+
+
+
+:::
+
+
+## Household Energy Costs  {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+::: {.r-fit-text}
+
+- The default rate in the UK on energy bills has increased relative to defaults for other types of bills 
+
+<img src="images/debit_defaults.png" 
+        width="850" 
+        height="520" 
+        class="center"
+        right="120"
+        style="display: block; margin: auto" />
+        <em></em>
+
+:::
+
+## UK Households are Looking for Help with Energy Costs  {auto-animate=true link-color="#172c83" body-bg="white" cite-color="#172c83"}
+
+::: {.r-fit-text}
+
+- The salience of energy bills likely peaked in 2022, but has remained elevated compared to historic levels 
+
+<img src="images/google_trends.png" 
+        width="850" 
+        height="520" 
+        class="center"
+        right="120"
+        style="display: block; margin: auto" />
+        <em></em>
+
+:::
+
+# Results {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+
+## Rising energy costs lead to decreased support for the Green Party {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+
+<br>
+
+<div id="container">
+<img src="images/coef_plot_2sls_green_party.png" 
+        width="800" 
+        height="600" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+## Rising energy costs lead to decreased support for climate change policies {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+
+<div id="container">
+<img src="images/coef_plot_2sls_support_for_renewables.png" 
+        width="800" 
+        height="600" 
+        class="center"
+        right="0"
+        style="display: block; margin: auto" />
+</div>
+
+
+
+
+
+
+# Preliminary Conclusions {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+- Voters are sensitive to household energy costs, with rising energy prices leading to decreased support for climate change policies, renewable energy production and the Green Party
+- Voters appear to attribute blame to the government for rising energy prices, even when these prices are exogenous
+- Given that energy prices are also influenced by climate change, this could create a feedback loop where voters turn against climate change policies, leading to further price increases
+
+
+
+# Next Steps {auto-animate=true link-color="#172c83" cite-color="#172c83" font-type="serif"}
+
+- Alternative instruments for household energy prices (any ideas?)
+- Alternative measures of support for climate change policies (voting behaviour)
+- Alternative identification strategy (spatial diff-in-diff with matched control group)
+
+
+# References 
+
+<div id="refs"></div>
+
+
+
+
+
+
+
+
+
+
+
