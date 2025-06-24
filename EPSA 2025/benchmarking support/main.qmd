@@ -1,0 +1,158 @@
+---
+title: "Benchmarking Support for Climate Action in International Organizations"
+subtitle: 2025 European Political Science Association Conference
+author: Zach Dickson 
+institute: London School of Economics
+bibliography: references.bib
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: figures/LSE_logo.png
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: convex
+    caption: true
+    tabularx: true
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [night, custom.scss]
+    footer: Benchmarking Support for Climate Action | Dickson et al.
+title-slide-attributes: 
+  data-background-image: figures/covideu_logo.png
+  data-background-size: 15%
+  data-background-position: 2% 2%
+---
+
+
+# The Core Challenge
+
+Climate change is a classic **collective action problem**.
+
+-   Long-term benefits are global, but short-term costs are local.
+-   This creates incentives for nations to "free-ride."
+
+This is especially difficult within the **European Union**:
+
+-   The EU needs to coordinate ambitious policies (like the Green Deal) across 27 diverse member states.
+-   Success depends on **broad public support**.
+
+However, public support can be undermined by perceptions of **unfair burden-sharing**. Citizens may resist policies if they feel their country is paying a disproportionate price.
+
+
+
+# The Research Question
+
+This paper investigates the political psychology of burden-sharing in international climate policy.
+
+The central question is:
+
+> **To what extent does benchmarking a nation's risk and cost exposure relative to other EU countries shape voter support for EU-wide climate policy?**
+
+In other words, do citizens compare their country to others when deciding to support something like the European Green Deal?
+
+
+
+## Benchmarking & Burden-Sharing
+
+> Our framework is built on **Benchmarking Theory**
+
+::: {.incremental}
+
+-   The theory posits that citizens don't evaluate policies in a vacuum.
+-   Instead, they **compare** their own country's performance, costs, and risks to those of other relevant countries (e.g., EU neighbors).
+
+> We extend this to climate policy, proposing two key benchmarks:
+
+1.  **Relative Vulnerability:** "Is my country more or less vulnerable to climate change than others?"
+    -   *Expectation:* Higher perceived relative vulnerability should **increase** support for collective action.
+2.  **Relative Cost:** "Is my country paying more or less for climate policies than others?"
+    -   *Expectation:* Higher perceived relative cost should **decrease** support for collective action.
+
+:::
+
+
+# Key Hypotheses
+
+Based on benchmarking theory, we test two main sets of hypotheses:
+
+**H1: The Vulnerability Benchmark**
+
+> Exposure to information showing that one's country is highly vulnerable to climate change relative to other EU states will **increase** support for the EU Green Deal.
+
+<br>
+
+**H2: The Cost Benchmark**
+
+> Exposure to information showing that one's country contributes more financially to climate policies relative to other EU states will **decrease** support for the EU Green Deal.
+
+
+
+# Experimental Design
+
+To test these hypotheses, we used a large-scale, pre-registered survey experiment
+
+::: {.incremental}
+
+- Embedded in the 2024 European Election Study (EES) 
+- Representative of the adult population in each EU member state
+- Conducted in **all 27 EU member states** (N = 27,000 respondents)
+- Main outcome was support for the European Green Deal on an 11-point scale
+- Randomized to 3 groups within each country sample (~1,000 respondents per country)
+  + **Vulnerability Treatment** (H1) 
+  + **Cost Treatment** (H2)
+  + **Control Group** (no treatment)
+
+::: 
+
+
+
+## The Visual Treatments
+
+Respondents in the treatment groups were shown a color-coded map to make the comparison clear and intuitive.
+
+
+![Relative Contributions Map](figures/EU_contributions_map.png)
+
+
+
+
+
+
+
+
+# Costs Outweigh Vulnerability
+
+The results show a clear hierarchy: **relative costs are a much stronger driver of opinion than relative vulnerability.**
+
+- **Vulnerability Treatment (H1):** Being informed about relative vulnerability had a **limited and inconsistent** effect on policy support.
+
+
+- **Costs Treatment (H2):** Being reminded of their country's financial contribution **significantly decreased** support for the EU Green Deal.
+    - This effect was stronger for citizens in higher-contributing countries.
+
+
+This suggests that when it comes to climate policy, citizens are more sensitive to the "pocketbook" question ("What does it cost me?") than the risk question ("How vulnerable are we?").
+
+
+
+
+
+# Country-Level Heterogeneity
+
+> For both treatments, a country's specific context [vulnerability and contribution] plays a significant role in shaping the effects
+
+
+- More vulnerable countries were **more responsive** to the vulnerability treatment
+- Higher contributing countries were **more negatively affected** by the cost treatment
+
+
+
+
+# Conclusion & Implications
+
+1.  **Perceptions of fair burden-sharing are critical.** Public support for ambitious, supranational climate policy like the EU Green Deal is highly conditional on whether citizens feel the costs are distributed equitably.
+
+2.  **Costs are a potent political constraint.** The perception that one's nation is "paying for the others" can undermine support for otherwise popular green policies.
+
+3.  **Highlighting shared risks is not enough.** To maintain public support for international climate action, policymakers must directly address the distributive politics of the green transition. It's not just about the "why" (the risk), but also about the "how" (who pays for it).
