@@ -1,0 +1,166 @@
+---
+title: "Local Inequality and Support for Right-wing Populism in Britain"
+subtitle: ''
+author: Zach Dickson
+date: "June 2025"
+institute: Department of Methodology<br>London School of Economics
+bibliography: references.bib
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: figures/LSE_logo.png
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: fade
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [night, custom.scss]
+    highlight-style: github-light
+    footer: '<a>*Dickson & Hobolt: Local Inequality and Populism*</a>'
+    pdf-max-pages-per-slide: 1
+    pdf-engine: xelatex
+title-slide-attributes: 
+  data-background-size: 15%
+  data-background-position: 2% 2%
+---
+
+
+
+# What Drives Support for Right-Wing Populism?
+
+::: {.incremental}
+
+**Two dominant explanations often compete:**
+
+- **Economic Grievance:** A rebellion of the "left behind," fueled by globalization, job insecurity, and economic dislocation.
+
+- **Cultural Backlash:** A reaction against progressive values, immigration, and perceived threats to national identity.
+
+::: 
+
+
+
+
+
+
+
+
+
+
+# Argument: It's About Relative Status
+
+::: {.incremental}
+
+- A key mechanism common to both economic and cultural explanations is relative status threat.
+
+- It's not just about absolute poverty, but the feeling that others around you are getting a better deal.
+
+- Visible, localized inequality can trigger feelings of status loss, resentment, and unfairness.
+
+- **Hypothesis:** *A rise in local inequality, made salient through housing, increases support for populist right parties.*
+
+:::
+
+
+
+
+
+
+
+
+
+# Research Design
+
+
+**Goal: Create a dynamic, small-area measure of wealth inequality**
+
+::: {.incremental}
+
+- **Data & Measurement:**
+  + Use detailed housing data to estimate housing prices over time
+    * 27 million property transactions in the UK
+    * ML model (XGBoost) predicts house values annually
+  + Calculate local inequality measures 
+    * GINI coefficient of house prices annually for each local electoral ward
+  + Pair data with attitudinal and electoral data on populist support
+    * UKIP/Reform UK vote share in local elections (2006-2021)
+    * Individual vote intention from Understanding Society panel study (2008-2023)
+
+::: 
+
+
+
+
+
+
+
+
+
+
+
+# Empirical Strategies 
+
+**Three complementary methods to test the hypothesis:**
+
+::: {.incremental}
+- **Two-Way Fixed Effects:** 
+  + Analyzes how changes in inequality within a ward over time affect vote share, controlling for national trends and stable local characteristics.
+- **Event Study (Difference-in-Differences):**
+  + Treats the construction of a new, high-value property as a "shock" that increases local inequality.
+  + Traces the dynamic effect on populist support in the years before and after the shock.
+- **Instrumental Variable (Shift-Share):**
+  + Uses plausibly random variation from the "Right-to-Buy" policy to isolate the causal effect of inequality from other confounding factors.
+:::
+
+
+
+
+
+
+
+## Local Inequality in the UK
+
+
+![2022 Electoral Ward Inequality](figures/map_gini_wards_2022.png)
+
+
+
+# Key Findings
+
+**Across three research designs and two datasets, a one-standard-deviation increase in local house price inequality is associated with a 2 to 5 percentage point increase in UKIP/Reform UK's vote share.**
+
+::: {.incremental}
+
+  - Two-Way Fixed Effects: **2-3 percentage points** in vote share
+  - Two-Way Fixed Effects: **2-3 percentage points** in vote intention
+  - Instrumental Variable (2SLS): **3-5 percentage points** in vote share
+  - Event Study: **2-4 percentage** points in years 1-2
+
+::: 
+
+
+## The Effect of an Inequality "Shock"
+
+![Effects of High-value Properties on Support for Populist Right Party](figures/usoc_rrw_vote_intention_no_controls_event_study.png)
+
+
+# Conclusion: Local Status Threat Matters
+
+**Main Takeaway: Salient, localized inequality—made visible through the housing market—is a significant driver of support for the populist right in Britain.**
+
+::: {.incremental}
+- Feelings of being "left behind" are often rooted in immediate, local comparisons, not just abstract national statistics
+- Relative status threat links both economic and cultural factors to populism.
+:::
+
+
+
+
+
+
+
+
+
+
+
