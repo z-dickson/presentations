@@ -27,19 +27,21 @@ title-slide-attributes:
 
 # The Core Challenge
 
-Climate change is a classic **collective action problem**.
+::: {.incremental}
 
--   Long-term benefits are global, but short-term costs are local.
--   This creates incentives for nations to "free-ride."
+- Climate change is a classic **collective action problem**.
 
-This is especially difficult within the **European Union**:
+  + Long-term benefits are global, but short-term costs are local
+  + This creates incentives for nations to "free-ride."
 
--   The EU needs to coordinate ambitious policies (like the Green Deal) across 27 diverse member states.
--   Success depends on **broad public support**.
+- This is especially difficult within the **European Union**:
 
-However, public support can be undermined by perceptions of **unfair burden-sharing**. Citizens may resist policies if they feel their country is paying a disproportionate price.
+  + The EU needs to coordinate ambitious policies (like the Green Deal) across 27 diverse member states.
+  + Success depends on **broad public support**.
 
+- However, public support can be undermined by perceptions of **unfair burden-sharing**. Citizens may resist policies if they feel their country is paying a disproportionate price.
 
+:::
 
 # The Research Question
 
@@ -97,11 +99,11 @@ To test these hypotheses, we used a large-scale, pre-registered survey experimen
 - Embedded in the 2024 European Election Study (EES) 
 - Representative of the adult population in each EU member state
 - Conducted in **all 27 EU member states** (N = 27,000 respondents)
-- Main outcome was support for the European Green Deal on an 11-point scale
 - Randomized to 3 groups within each country sample (~1,000 respondents per country)
   + **Vulnerability Treatment** (H1) 
   + **Cost Treatment** (H2)
   + **Control Group** (no treatment)
+- Main outcome was support for the European Green Deal on an 11-point scale
 
 ::: 
 
@@ -133,10 +135,9 @@ Respondents in the treatment groups were shown a color-coded map to make the com
 
 
 - **Costs Treatment (H2):** Being reminded of their country's financial contribution **significantly decreased** support for the EU Green Deal.
-    - This effect was stronger for citizens in higher-contributing countries.
 
 
-This suggests that when it comes to climate policy, citizens are more sensitive to the "pocketbook" question ("What does it cost me?") than the risk question ("How vulnerable are we?").
+  + This suggests that when it comes to climate policy, citizens are more sensitive to the "pocketbook" question ("What does it cost me?") than the risk question ("How vulnerable are we?").
 
 :::
 
@@ -147,10 +148,12 @@ This suggests that when it comes to climate policy, citizens are more sensitive 
 > For both treatments, a country's specific context [vulnerability and contribution] plays a significant role in shaping the effects
 
 
+
+::: {.incremental}
 - More vulnerable countries were **more responsive** to the vulnerability treatment
 - Higher contributing countries were **more negatively affected** by the cost treatment
 
-
+:::
 
 
 # Conclusion & Implications
