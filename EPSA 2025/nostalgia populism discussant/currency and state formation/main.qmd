@@ -1,0 +1,106 @@
+---
+title: "Discussion: *Currency and State Formation: Risk, Uncertainty and Voters*"
+bibliography: references.bib
+author: "Discussant: Zach Dickson (LSE)"
+format:
+  pdf:
+    number-sections: false
+    colorlinks: true
+    keep-tex: true
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    include-in-header:
+      text: |
+       \addtokomafont{disposition}{\rmfamily}
+header-includes:
+- \usepackage{caption}
+- \usepackage{hyperref}
+- \usepackage[ocgcolorlinks]{ocgx2}
+- \usepackage{xcolor}
+- \hypersetup{colorlinks,linkcolor={blue},citecolor={purple}, colorlinks=true, citecolor={blue}, urlcolor={blue}}
+---
+
+
+
+
+# Summary 
+
+This is an insightful paper that makes a valuable contribution to the literature on constitutional referendums, political economy, and voter behavior. Its key strengths lie in:
+
+- A Clear Research Gap: The paper correctly identifies that voter attitudes toward currency in the context of state formation are an under-researched area.
+- Rich, Multi-Faceted Data: The use of a two-wave panel survey conducted before and after the referendum is a significant asset. Combining this with knowledge questions, retrospective evaluations, and survey experiments provides a robust, multi-method approach to answering the research questions.
+- A Compelling Central Finding: The core argument—that uncertainty over currency was a powerful factor constraining support for independence—is well-supported by the evidence presented.
+- A detailed and (perhaps overly) lengthy background on the Scottish independence referendum, which provides necessary context for the analysis.
+
+
+
+
+# Discussion
+
+The paper's argument is compelling, but there are several areas where it could be strengthened:
+
+
+
+
+## 1. The Scope of "State Formation"
+The title and introduction refer broadly to "state formation", and the appendix lists dozens of new states since 1970. However, the analysis is exclusively focused on Scotland, a post-industrial democracy with a highly developed financial system. The lessons from Scotland may not be easily generalizable to the decolonization or post-Soviet contexts that make up the bulk of modern state formation.
+
+**Potential Suggestion:**
+The paper could be strengthened by either narrowing the title and framing to be more explicitly about referendums in advanced democracies or by adding a section to the discussion that thoughtfully considers how these findings might (or might not) apply to different contexts of state formation.
+
+
+## 2. Theory Integration
+The paper does a good job of identifying the role of risk and uncertainty in voter behavior, particularly in the context of currency. However, the theoretical framework could be more robust. While references to economic and psychological literature are present, there’s limited integration into a cohesive theoretical framework explaining how risk, uncertainty, and identity interact.
+
+**Potential Suggestion:**
+
+Integrate a more explicit theoretical framework that connects the concepts of risk tolerance, economic beliefs, and identity to vote choice. This could involve:
+
+- Drawing on existing theories in political psychology or behavioral economics to explain how voters process uncertainty and risk.
+- Discussing how identity (national, economic, etc.) influences risk perception and decision-making in the context of referendums.
+- Outlining how (we should expect) these factors interact in the specific context of the Scottish independence referendum, perhaps through a conceptual model or diagram.
+
+
+
+
+## 3. Clarity of the Survey Experiment Design
+
+
+The description of the survey experiment is slightly confusing. It lists seven conditions (a-e, with b and c split) and states that each was asked with and without the pound, yielding 14 conditions . However, condition 'a' appears to be the simple baseline question rather than a treatment.
+
+
+**Potential Suggestion:** 
+Add a small table to the methodology section that clearly lays out the control group and the different treatment groups in the experiment. This would significantly improve clarity for the reader.
+
+
+
+
+
+
+## 4. Justification of Experimental Values
+
+The survey experiment uses a hypothetical cost or benefit of "500 per month". This is a very large and specific figure. The paper does not explain why this amount was chosen. Respondents might perceive it as unrealistic, which could affect how they answer.
+
+**Potential Suggestion:**
+
+Briefly justify the choice of this £500 figure in the methods section. If it was chosen to represent a significant but not impossible shock, this should be stated. Acknowledging this as a potential limitation in the discussion would also be appropriate.
+
+## 5. Presentation of Results
+
+**Density and Interpretation of Regression Tables**
+
+Table 1 and Table 2 are very dense, presenting many models side-by-side with minimal explanation in the text. This makes it difficult for the reader to understand the purpose of each model and to follow the analytical story. Furthermore, the tables report binomial logit coefficients, which are not directly interpretable in terms of probability.
+
+**Potential Suggestions:**
+
+- **Narrate the Tables:** In the text, guide the reader through the tables more explicitly. For example: "Model 1 presents the baseline model with only demographic controls. In Model 2, we introduce our general risk tolerance measure, which is a significant predictor of the 'Yes' vote. In Model 3, we add the belief about retaining the pound, and we observe that..."
+- **Use Marginal Effects:** For key variables, consider presenting average marginal effects instead of or in addition to logit coefficients. This would allow for more intuitive statements like, "A voter who believed Scotland would keep the pound was X percentage points more likely to vote Yes, holding other factors constant."
+
+
+
+
+
+
+
