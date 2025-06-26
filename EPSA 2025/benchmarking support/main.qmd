@@ -123,7 +123,11 @@ Respondents in the treatment groups were shown a color-coded map to make the com
 
 # Costs Outweigh Vulnerability
 
-The results show a clear hierarchy: **relative costs are a much stronger driver of opinion than relative vulnerability.**
+> The results show a clear hierarchy: **relative costs are a much stronger driver of opinion than relative vulnerability.**
+
+::: {.incremental}
+
+
 
 - **Vulnerability Treatment (H1):** Being informed about relative vulnerability had a **limited and inconsistent** effect on policy support.
 
@@ -134,7 +138,7 @@ The results show a clear hierarchy: **relative costs are a much stronger driver 
 
 This suggests that when it comes to climate policy, citizens are more sensitive to the "pocketbook" question ("What does it cost me?") than the risk question ("How vulnerable are we?").
 
-
+:::
 
 
 
@@ -151,8 +155,12 @@ This suggests that when it comes to climate policy, citizens are more sensitive 
 
 # Conclusion & Implications
 
+::: {.incremental}
+
 1.  **Perceptions of fair burden-sharing are critical.** Public support for ambitious, supranational climate policy like the EU Green Deal is highly conditional on whether citizens feel the costs are distributed equitably.
 
 2.  **Costs are a potent political constraint.** The perception that one's nation is "paying for the others" can undermine support for otherwise popular green policies.
 
 3.  **Highlighting shared risks is not enough.** To maintain public support for international climate action, policymakers must directly address the distributive politics of the green transition. It's not just about the "why" (the risk), but also about the "how" (who pays for it).
+
+:::
