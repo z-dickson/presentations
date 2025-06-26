@@ -2,8 +2,7 @@
 title: "Local Inequality and Support for Right-wing Populism in Britain"
 subtitle: 2025 European Political Science Association Conference
 author: Zach Dickson
-date: "June 2025"
-institute: Department of Methodology<br>London School of Economics
+institute: London School of Economics
 bibliography: references.bib
 format:
   revealjs: 
