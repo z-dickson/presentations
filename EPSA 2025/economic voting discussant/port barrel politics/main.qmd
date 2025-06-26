@@ -78,4 +78,3 @@ The paper's conclusion is that pork barrel politics can be effective in multipar
 - It's "difference-in-**differences**" not "difference-in-difference"
 
 
-Overall, this is a strong and well-executed paper that makes a valuable contribution to the literature on economic voting and electoral accountability. The suggestions above aim to enhance the theoretical framing, clarify the causal mechanism, and address the generalizability of the findings. By addressing these points and perhaps expanding the analysis into a full paper, the authors could place this work in a great journal. 
