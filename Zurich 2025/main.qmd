@@ -81,8 +81,7 @@ title-slide-attributes:
 
 
 - **Research Question**: Can populist right parties leverage broader economic shocks, like rising energy bills, to undermine support for climate policies and gain electoral advantage?
-    - Do rising energy bills lead to a shift in public attitudes against environmental protection?
-    - Do these shifts translate into electoral gains for populist right parties?
+
 
 :::
 
@@ -180,14 +179,14 @@ $$ \text{Support}_{it} = \alpha + \sum_{t} \beta_t \left( \text{EnergyBills}_{jt
 
 
 
-![](figures/reddit_energy_bill_comments_climate_government_score.png){.absolute top="100" left="100" align="left" width="850" height="500"}
+![](figures/reddit_energy_bill_comments_climate_government_score.png){.absolute top="100" left="100" align="left" width="850" height="550"}
 
 
 
 ## Finding 3: Attitudes Shift Against the Environment
 
 
-![](figures/event_study_energy_bill_effects_on_enviro_growth.png){.absolute top="100" left="100" align="left" width="850" height="600"}
+![](figures/event_study_energy_bill_effects_on_enviro_growth.png){.absolute top="100" left="100" align="left" width="850" height="500"}
 
 
 
