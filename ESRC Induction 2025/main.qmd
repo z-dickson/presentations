@@ -32,10 +32,6 @@ format:
 
 
 
-![](images/MYslides.png){.absolute top=100 right=50 width="300" height="300"}
-
-
-
 
 # Department of Methodology {auto-animate="true"}
 
@@ -89,7 +85,6 @@ format:
 
 
 
-![](images/DSI_phd_affiliate_scheme.png){.absolute top=-150 right=50 width="200" height="200"}
 
 ::: footer
 [LSE Data Science Institute](https://www.lse.ac.uk/DSI)
