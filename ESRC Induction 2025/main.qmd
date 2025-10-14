@@ -1,0 +1,193 @@
+---
+title: "DTP ESRC Induction"
+subtitle: "Welcome to LSE!"
+author: Dr. Zachary Dickson
+institute: London School of Economics
+format:
+  revealjs: 
+    fontsize: 1.5em
+    logo: images/LSE_logo.png
+    embed-resources: true
+    slide-number: true
+    preview-links: auto
+    transition: fade
+    citation_package: biblatex
+    transition-speed: fast
+    theme: [serif, custom.scss]
+---
+
+
+
+
+
+
+
+# Introduction {auto-animate="true"}
+
+- Welcome to LSE! 
+- My role within the DTP
+- The Department of Methodology
+   - Different offerings and workshops
+- Offerings from the University
+
+
+
+![](images/MYslides.png){.absolute top=100 right=50 width="300" height="300"}
+
+
+
+
+# Department of Methodology {auto-animate="true"}
+
+
+*The pre-eminent centre for methodological training in the social sciences*
+
+- [**Methodology Courses**](https://www.lse.ac.uk/Methodology/Study/Methodology-Courses) 
+  - The Department of Methodology offers a range of courses in research methods and techniques, including qualitative, quantitative, and mixed-methods approaches. 
+
+- [**Methods Surgery** ](https://www.lse.ac.uk/Methodology/Methods-Surgery/Methods-surgery)
+  - The Methods Surgery is a drop-in session where students can get advice on research design, data collection, and analysis from experienced researchers
+
+- [**Short Courses**](https://www.lse.ac.uk/Methodology/Methods-training/Methods-Short-Courses)
+  - Methodology Short Courses are designed to provide students with a comprehensive understanding of research methods and techniques. These courses are open to all LSE students and staff
+  - Some examples... 
+
+![](images/dept_of_methodology.png){.absolute top=-170 right=50 width="200" height="200"}
+
+::: footer
+[LSE Department of Methodology](https://www.lse.ac.uk/methodology)
+:::
+
+
+
+
+
+# LSE Data Science Institute (DSI) {auto-animate="true}
+ 
+*An interdisciplinary institute fostering the study of data science and AI with a focus on the social sciences through research, education and engagement*
+
+- Events, seminars, and workshops on data science and AI
+- Research projects and collaborations with industry partners
+- Advanced computing facilities and resources
+
+::: footer
+[LSE Data Science Institute](https://www.lse.ac.uk/DSI)
+:::
+
+
+# DSI PhD Affiliate Scheme {auto-animate="true}
+ 
+
+
+*The DSI is launching an Affiliate Scheme for LSE PhD students. We invite doctoral researchers, from any department, who have an interest in data science and artificial intelligence to join; whether you are interested in applications for your research, are studying the social scientific implications of AI and data or are working on fundamental methodologies.*
+
+- Social and professional networking opportunities
+- A range of events, including PhD seminars, work-in-progress talks, thematic workshops and careers events
+- Access to DSI facilities (meeting rooms, seminar room, and hot-desking workspaces)
+- Support for work and activities from our events and communications team
+
+
+
+
+![](images/DSI_phd_affiliate_scheme.png){.absolute top=-150 right=50 width="200" height="200"}
+
+::: footer
+[LSE Data Science Institute](https://www.lse.ac.uk/DSI)
+:::
+
+
+
+# LSE Digital Skills Lab {auto-animate="true}
+
+
+- The **Digital Skills Lab** at LSE offers courses on essential tools and methods like Python, R, SQL, and data visualization software such as Tableau and NVivo
+- In person and online training sessions are available, covering a wide range of digital skills and tools
+- The Digital Skills Lab also provides support for students interested in digital research methods and data science valuable to a career outside of academia
+
+
+![](images/digital_skills_lab.png){.absolute top=-200 right=50 width="200" height="200"}
+
+
+::: footer
+[LSE Digital Skills Lab](https://info.lse.ac.uk/current-students/digital-skills-lab)
+:::
+
+
+# Student Wellbeing Services {auto-animate="true}
+
+*The Student Wellbeing Service works with you and the wider school to explore and manage challenges relating to disability, and to support your wellbeing so you can make the most of your LSE experience.*
+
+- Individual consultations, group sessions, and [24/7 crisis support](https://info.lse.ac.uk/current-students/student-wellbeing/out-of-hours-support) 
+- [Student Wellbeing and Counselling Services](https://info.lse.ac.uk/current-students/student-wellbeing/Student-Wellbeing-and-Counselling-Service)
+
+- [Peer Support](https://info.lse.ac.uk/current-students/student-wellbeing/students-supporting-students/peer-support)
+
+- [Studying at LSE with a Disability](https://info.lse.ac.uk/current-students/student-wellbeing/disability-wellbeing/Studying-at-LSE-with-a-Disability)
+
+- [Specific learning difficulties](https://info.lse.ac.uk/current-students/student-wellbeing/disability-wellbeing/specific-learning-difficulties)
+
+![](images/student_wellbeing.png){.absolute top=200 right=50 width="200" height="200"}
+
+::: footer
+[LSE Student Wellbeing Services](https://info.lse.ac.uk/current-students/student-wellbeing)
+:::
+
+
+
+# Interdisciplinary Research Centres {auto-animate="true}
+
+- [Research Centres, Departmental Research Units and Recognised Groups](https://info.lse.ac.uk/staff/research-centres-and-groups)
+  - Research Centres are specialist research initiatives operating under the supervision of the LSE’s Research Committee. Most are linked to a ‘parent’ Department, though some are organised on a School-wide basis
+
+
+**Some Research Centres include:**
+
+- [Centre for Analysis of Risk and Regulation (CARR)](https://www.lse.ac.uk/accounting/CARR)
+- [Centre for Economic Performance (CEP)](http://cep.lse.ac.uk/)
+- [Centre for Women, Peace and Security](https://www.lse.ac.uk/women-peace-security)
+- [LSE Cities](https://www.lse.ac.uk/cities)
+- And many more! 
+
+![](images/research_centres.png){.absolute top=250 right=150 width="200" height="200"}
+
+::: footer
+[LSE Research Centres, Departmental Research Units and Recognised Groups](https://info.lse.ac.uk/staff/research-centres-and-groups)
+:::
+
+
+
+# Grantham Research Institute on Climate Change and the Environment {auto-animate="true"}
+
+
+*The Grantham Research Institute is a world-leading multidisciplinary centre for policy-relevant research and training on climate change and the environment, bringing together international expertise from across LSE and beyond, including on economics, finance, geography, the environment, science, law, international relations, development and political science.*
+
+- Policy-relevant research on climate change and the environment
+- Collaboration with policymakers, business, and civil society
+- Engagement with the public through events, media, and publications
+- [PhD Support Grants](https://www.lse.ac.uk/granthaminstitute/about/work-and-study/)
+
+
+![](images/gri.png){.absolute top=-130 left=20 width="350" height="100"}
+
+![](images/grantham_research_institute.png){.absolute top=320 right=50 width="200" height="200"}
+
+::: footer
+[**Grantham Research Institute on Climate Change and the Environment**](https://www.lse.ac.uk/granthaminstitute/)
+:::
+
+
+
+# Additional Resources {auto-animate="true"}
+
+- [Support for International Students](https://www.lse.ac.uk/study-at-lse/international-students)
+  - Personalised support for international students
+
+- [LSE Library](https://www.lse.ac.uk/library)
+  - The LSE Library is one of the largest social science libraries in the world, with extensive collections of print and electronic resources, including books, journals, and databases
+- [LSE Blogs](https://blogs.lse.ac.uk/)
+  - LSE Blogs is a platform for academics, researchers, and students to share their research and expertise with a global audience
+  - Example... 
+
+
+# Thanks! <br><br> And welcome to LSE! {auto-animate="true"}
+
