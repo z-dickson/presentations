@@ -1,6 +1,6 @@
 ---
 title: "The Radical Right and the Politicization of Climate Policy"
-author: Zach Dickson 
+author: Sara Hobolt and Zach Dickson 
 institute: London School of Economics
 bibliography: references.bib
 format:

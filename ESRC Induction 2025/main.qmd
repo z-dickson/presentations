@@ -48,7 +48,6 @@ format:
   - Methodology Short Courses are designed to provide students with a comprehensive understanding of research methods and techniques. These courses are open to all LSE students and staff
   - Some examples... 
 
-![](images/dept_of_methodology.png){.absolute top=-170 right=50 width="200" height="200"}
 
 ::: footer
 [LSE Department of Methodology](https://www.lse.ac.uk/methodology)
