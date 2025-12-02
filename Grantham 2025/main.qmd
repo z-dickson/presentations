@@ -263,7 +263,7 @@ format:
 
 ## Energy Exposure Measurement 
 
-> Goal: Measure heterogeneous exposure to energy price shock
+> **Goal:** Measure heterogeneous exposure to energy price shock
 
 
 - **Spatial Level:** Lower Layer Super Output Area (LSOA)  
@@ -295,7 +295,22 @@ $$EPC\ Score_{LSOA} = \frac{1}{N} \sum_{i=1}^{N} EPC\ Rating_i$$
   + Count co-occurrences of Set A and Set B terms within each window
   + Calculate linkage score as the proportion of windows containing both sets of terms + causal linking terms (within a smaller sub-window, e.g., 12 words)
 
----
+
+
+# Support for PRR Parties
+
+<br>
+
+
+> **Goal:** Measure highly localized support for PRR parties over time
+
+- **Dependent Variable:**  
+  - Binary indicator for intention to vote for PRR party (UKIP or Reform UK)
+- **Key Independent Variable:**  
+  - Interaction of EPC score and post-shock period (Post-2021)
+
+
+
 
 
 # Estimation Strategies
