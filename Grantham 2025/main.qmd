@@ -81,7 +81,7 @@ format:
 
 ::: {.incremental}
 - PRR parties explicitly **linked energy bills to Net Zero** at moments of price spikes.
-- Individuals in **energy-inefficient areas** became more likely to support PRR parties.
+- Individuals in **energy-inefficient areas** became more likely to support PRR parties after price spikes.
 - Effects **stronger among gas-dependent households**.
 - Environmental attitudes shifted; **economic evaluations did not**.
 :::
@@ -90,7 +90,7 @@ format:
 
 
 
-# Outline of Talk
+# Agenda for the rest of the talk
 
 1. Theory  
 2. The UK Energy Price Shock  
@@ -132,22 +132,20 @@ format:
 
 
 
-# Climate Policy as a Wedge Issue
+# PRR Parties and Climate Change Policies
 
 <br>
 
 ::: {.incremental}
-- Climate policy is highly salient but complex, making it vulnerable to politicization [@stokes2016electoral; @colantone2024political; @Bosetti2025]
-- Climate policies can provoke political backlash when costs are salient and visible 
+- Climate policy is highly salient but complex, making it vulnerable to politicization 
+- Climate policies can provoke political backlash when costs are salient and unequal [@stokes2016electoral; @colantone2024political; @Bosetti2025]
   + For example: 
-    - Energy taxes [@voeten2024energy]
+    - Taxes on household gas consumption [@voeten2024energy]
     - Emissions taxes [@colantone2024political]
-    - 'Brown' jobs [@heddesheimer2024energy]
-- Backlash often arises when policies are framed as unfair or costly [@stokes2016electoral, @Bosetti2025]
 :::
 
 
----
+
 
 
 
@@ -155,8 +153,8 @@ format:
 # Core Theoretical Argument
 
 1. **Material Shock:** Exogenous energy price spike  
-2. **Heterogeneous Exposure:** Energy inefficiency → greater cost burden  
-3. **Rhetorical Supply:** PRR parties link bills → Net Zero  
+2. **Blame Attribution:** PRR parties link bills → Net Zero 
+3. **Heterogeneous Exposure:** Energy inefficiency → greater cost burden  
 4. **Voter Response:** Affected individuals shift toward PRR parties  
 5. **Mechanism:** Shift in environmental attitudes (blame attribution)
 
@@ -166,9 +164,8 @@ format:
 
 ::: {.incremental}
 1. **Supply:** PRR rhetoric links bills ↔ Net Zero  
-2. **Demand:** Low-efficiency areas hit hardest → more PRR support  
-3. **Amplification:** Gas-dependent households hit harder  
-4. **Mechanism:** Shift in environmental attitudes (not economic evaluations)  
+2. **Demand:** Areas hit hardest by shock → more PRR support    
+3. **Mechanism:** Shift in environmental attitudes (not economic evaluations)  
 :::
 
 
@@ -177,11 +174,15 @@ format:
 # The UK Context 
 
 
+
+# The UK Context 
+
 - High reliance on **gas heating** (~85% homes) 
 - Old, poorly insulated housing stock (~37% built pre-1946)
-- Structural inefficiencies → heterogeneous exposure
-- Rapid energy price increases following Russia's invasion of Ukraine 
-
+- Structural inefficiencies → heterogeneous exposure to price shocks
+- UK PRR parties with **anti-Net Zero** platforms:
+  + UKIP (~2019-present)
+  + Reform UK (post-Brexit party, 2019–present)
 
 
 
@@ -199,11 +200,11 @@ format:
 
 
 - **Data:** 
-  + Energy Price Exposure:
-  + Party communications (PRR rhetoric)
-  + Voter panel data 
+  + Energy Performance Certificates (EPCs)
+  + PRR Party communications (press releases, YouTube transcripts)
+  + Support for PRR parties (Understanding Society, British Election Study)
 - **Measurement:**
-  + Energy efficiency (EPCs)
+  + Energy price exposure via EPC scores
   + PRR rhetoric linking energy bills → Net Zero
   + Vote intention, attitudes 
 - **Empirical Strategy:** Diff-in-Diff + Event Study + Triple Differences  
@@ -216,16 +217,19 @@ format:
 
 
 
-# Energy Efficiency 
+# Energy Performance Certificates (EPCs) 
 
-- **Energy Performance Certificates (EPCs)**  
-  - Issued to homes when built, sold, or rented
-  - Based on insulation, heating system, windows, etc.
-  - Rated A (most efficient) to G (least efficient)  
-  - 27 million records (>50% all UK homes)
+<br>
+
+- Issued to homes when built, sold, or rented
+- Based on insulation, heating system, windows, etc.
+- Rated A (most efficient) to G (least efficient)  
+- 27 million records (>50% all UK homes)
 
 
-# PRR Party Rhetoric: Linking Energy Bills to Net Zero
+## PRR Party Rhetoric: Linking Energy Bills to Net Zero
+
+<br>
 
 - UKIP Press Releases (2019-2024)
   + 402 press releases
@@ -235,9 +239,14 @@ format:
   + 527 transcripts
   + YouTube API
 
+> **Advantage:** PRR parties' organic communications to supporters
+
+
 
 
 ## Vote Intention and Attitudes Data
+
+<br>
 
 - **Understanding Society Panel**  
   - Waves 1–13 (2009–2023)  
@@ -263,7 +272,9 @@ format:
 
 ## Energy Exposure Measurement 
 
-> **Goal:** Measure heterogeneous exposure to energy price shock
+<br>
+
+> **Goal:** Measure heterogeneous exposure to energy price shock (<2021)
 
 
 - **Spatial Level:** Lower Layer Super Output Area (LSOA)  
@@ -285,15 +296,40 @@ $$EPC\ Score_{LSOA} = \frac{1}{N} \sum_{i=1}^{N} EPC\ Rating_i$$
 
 ## PRR Party Rhetoric: Linking Energy Bills to Net Zero
 
+<br>
 
 - **Window-Based Text Linking Method**  
   + Define three sets of keywords:  
     - **Set A:** Energy bill-related terms  
     - **Set B:** Net Zero-related terms
-    - **Set C:** Causal linking terms (e.g., "because of", "due to")
+    - **Set C:** Connecting terms (e.g., "cut bills", "raising bills")
+    - **Set D:** Causal linking terms (e.g., "because of", "due to")
   + For each document, create sliding windows of text (e.g., 50 words)
   + Count co-occurrences of Set A and Set B terms within each window
   + Calculate linkage score as the proportion of windows containing both sets of terms + causal linking terms (within a smaller sub-window, e.g., 12 words)
+
+---
+
+
+## PRR Party Rhetoric Measurement 
+
+<br>
+
+
+**Measurement 1** (A + B co-occurrence proportion)
+$$
+M_1 = \frac{|A \cap B|}{|U|}
+$$
+
+**Measurement 2** (A + B + C co-occurrence proportion)  
+$$  
+M_2 = \frac{|A \cap B \cap C|}{|U|}
+$$
+
+**Measurement 3** (A + B + D co-occurrence proportion)  
+$$
+M_3 = \frac{|A \cap B \cap D|}{|U|}
+$$
 
 
 
@@ -307,7 +343,7 @@ $$EPC\ Score_{LSOA} = \frac{1}{N} \sum_{i=1}^{N} EPC\ Rating_i$$
 - **Dependent Variable:**  
   - Binary indicator for intention to vote for PRR party (UKIP or Reform UK)
 - **Key Independent Variable:**  
-  - Interaction of EPC score and post-shock period (Post-2021)
+  - Interaction of local EPC score and post-shock period dummy (Post-2021)
 
 
 
@@ -331,17 +367,17 @@ $$EPC\ Score_{LSOA} = \frac{1}{N} \sum_{i=1}^{N} EPC\ Rating_i$$
 
 <br>
 
-> $$Y_{it} = α_i + γ_t + β (EPC_i × Post_{2021}) + Controls_{it} + ε_{it}$$
+> $$Y_{it} = α_i + γ_t + β (EPC_{LSOA} × Post_{2021}) + Controls_{it} + ε_{it}$$
 
 
 - **α_i**: Individual fixed effects  
 - **γ_t**: Time fixed effects  
-- **EPC_i**: Energy Performance Certificate score (LSOA level)  
+- **EPC_{LSOA}**: Energy Performance Certificate score (LSOA level)  
 - **Post_t**: Post-shock period indicator (Post-2021)
 - **Y_it**: PRR vote intention for individual i at time t
 - **Controls_it**: Time-varying controls (e.g., employment, Income, etc.)
 
----
+
 
 
 
@@ -567,6 +603,8 @@ $$
 
 
 ## Effects of Energy Price Shock on Reported Income {#no-income-channel}
+
+
 
 ![USOC-Derived Income](images/event_study_placebo_income.png){width=70%}
 
