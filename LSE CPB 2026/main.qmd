@@ -21,7 +21,38 @@ format:
 
 
 
-## Motivation
+
+
+
+
+# Why Study Energy Bills?
+
+<br>
+
+::: {.incremental}
+- Household energy bills are **universal**, **salient**, and **recurrent**
+- Energy prices have heterogenous effects 
+- Energy prices are volatile
+  - AI Data Centers
+  - Extreme weather events
+  - Geopolitical shocks 
+:::
+---
+
+
+
+
+
+
+# Party competition to define the 'cause'
+
+- Multiple narratives about why energy prices increased 
+  - Mainstream parties: Russia
+  - Populist radical right parties: Net Zero / climate policies
+
+
+
+## Energy bills and Net Zero 
 
 
 ::: {.r-stack}
@@ -37,22 +68,6 @@ format:
 
 
 
----
-
-
-
-# Why Study the Politicization of Energy Bills?
-
-<br>
-
-::: {.incremental}
-- Household energy bills are **universal**, **salient**, and **recurrent**
-- The energy transition redistributes costs *unevenly*
-- Populist Radical Right (PRR) parties weaponize shocks that have distributional consequences 
-  - Trade shocks → anti-globalization backlash
-  - Immigration shocks → anti-immigration backlash
-- Energy price shocks → **green backlash**
-:::
 
 
 
@@ -60,35 +75,16 @@ format:
 
 
 
-# The Puzzle
 
-> What are the political consequences of higher energy prices, and under what conditions do they lead to backlash against climate policy?
-
+# Existing Literature
 
 
 
 
 
 
-# Preview of Findings
+# When Do Material Shocks Matter Politically?
 
-::: {.incremental}
-- PRR parties explicitly **linked energy bills to Net Zero** at moments of price spikes.
-- Individuals in **energy-inefficient areas** became more likely to support PRR parties after price spikes.
-- Effects **stronger among gas-dependent households**.
-- Individuals more exposed shift their **environmental attitudes**.
-:::
-
-
-
-
-
-# Existing Literature 
-
-
-
-
-# Material Shocks
 
 
 > “...preexisting community conditions shape the political consequences of economic shocks” [@cremaschi2024without]
@@ -97,36 +93,37 @@ format:
 - Material shocks influence political preferences, but only under particular social and informational conditions [@healy2010random; @arceneaux2006held; @margalit2019political; @cremaschi2024without]
 - Voters need **attribution of blame** to translate economic shocks into political change [@fiorina1981retrospective; @key1966responsible]
 
+---
 
 
 
-
-# Populist Radical Right (PRR) Parties
-
-<br>
-
-- PRR parties thrive by opposing issues that are otherwise uncontested by mainstream parties through **issue entrepreneurship** [@vries2020political; @van2014exploiting]
-- They link economic and cultural grievances to specific issues they 'own' [@dickson2024going; @dickson2024public]
-- PRR parties are adept at **politicizing crises** by providing clear **attribution of blame**, highlighting unfairness and inequality [@mudde2017populism; @de2021crisis]
-
-
-
-
-
-
-
-# PRR Parties and Climate Change Policies
+# PRR Parties as Crisis Entrepreneurs
 
 <br>
 
 ::: {.incremental}
-- Climate policy is highly salient but complex, making it vulnerable to politicization 
-- There's growing evidence that PRR parties oppose climate policies and exploit public concerns about their costs
-- Mainstream parties often avoid contesting climate policy, creating space for PRR parties to frame it as a threat to economic well-being, security, sovereignty etc. [@van2014exploiting; @dickson2024going]
-- Climate policies can provoke political backlash when costs are salient and unequal [@stokes2016electoral; @colantone2024political; @Bosetti2025]
-  + For example: 
-    - Taxes on household gas consumption [@voeten2024energy]
-    - Emissions taxes [@colantone2024political]
+- PRR parties excel at **issue entrepreneurship** — seizing upon issues mainstream parties neglect [@vries2020political; @van2014exploiting]
+- They **politicize crises** by providing clear **attribution of blame** [@mudde2017populism; @de2021crisis]
+- Link economic grievances to issues they 'own' [@dickson2024going; @dickson2024public]
+- Highlight **unfairness** and **unequal cost distribution**
+:::
+
+
+
+
+
+## Climate Policy: A Perfect Target for PRR Parties
+
+<br>
+
+::: {.incremental}
+- Climate policy is **salient** but **complex** → vulnerable to politicization
+- Mainstream parties often avoid contesting it → creates **political space** [@van2014exploiting]
+- When costs are **visible** and **unequally distributed** → ripe for backlash [@stokes2016electoral; @colantone2024political]
+- PRR parties can frame it as threat to economic well-being, security, sovereignty
+- Evidence of backlash from:
+  + Energy taxes [@voeten2024energy]
+  + Car ban [@colantone2024political]
 :::
 
 
@@ -149,16 +146,16 @@ format:
 
 
 
-# Observable Implications
+
+# Preview of Findings
 
 ::: {.incremental}
-1. **Energy Price Shock:** Large, exogenous increase in household energy prices  
-2. **Rhetorical Linkage:** PRR parties explicitly link energy bills → Net Zero  
-3. **Heterogeneous Exposure:** Spatial variation in energy inefficiency → differential exposure to price shock  
-4. **Voter Behavior:** Individuals in energy-inefficient areas → increased PRR support post-shock  
-5. **Amplification:** Stronger effects among gas-dependent households  
-6. **Mechanism:** Shift in environmental attitudes among affected individuals 
+- PRR parties explicitly **linked energy bills to Net Zero** at moments of price spikes.
+- Individuals in **energy-inefficient areas** became more likely to support PRR parties after price spikes.
+- Effects **stronger among gas-dependent households**.
+- Individuals more exposed shift their **environmental attitudes**.
 :::
+
 
 
 
