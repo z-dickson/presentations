@@ -18,23 +18,7 @@ format:
     footer: <a>Public Service Decline and Support for the Populist Right</a>
 ---
 
-::: {.r-stack}
-![](images/motivation1.png){.absolute .fragment top="0" left="10" align="left" width="650" height="350"}
 
-![](images/motivation7.png){.absolute .fragment top="10" right="20" align="left" width="650" height="300"}
-
-![](images/motivation3.png){.absolute .fragment bottom="0" left="5" align="bottom" width="550" height="300"}
-
-![](images/motivation4.png){.absolute .fragment top="0" right="20" align="top" width="650" height="400"}
-
-![](images/motivation6.png){.absolute .fragment top="0" left="0" align="left" width="500" height="300"}
-
-![](images/motivation2.png){.absolute .fragment top="170" left="10" align="left" width="550" height="350"}
-
-![](images/motivation5.png){.absolute .fragment bottom="40" right="10" align="bottom" width="600" height="300"}
-:::
-
----
 
 # Research Question {auto-animate=true}
 
@@ -88,6 +72,29 @@ format:
 - The NHS has been a central issue in elections and the Brexit referendum
 
 ![](images/brexit_bus.png){.absolute .fragment bottom="50" right="150" width="500" height="300"}
+
+
+---
+
+::: {.r-stack}
+![](images/motivation1.png){.absolute .fragment top="0" left="10" align="left" width="650" height="350"}
+
+![](images/motivation7.png){.absolute .fragment top="10" right="20" align="left" width="650" height="300"}
+
+![](images/motivation3.png){.absolute .fragment bottom="0" left="5" align="bottom" width="550" height="300"}
+
+![](images/motivation4.png){.absolute .fragment top="0" right="20" align="top" width="650" height="400"}
+
+![](images/motivation6.png){.absolute .fragment top="0" left="0" align="left" width="500" height="300"}
+
+![](images/motivation2.png){.absolute .fragment top="170" left="10" align="left" width="550" height="350"}
+
+![](images/motivation5.png){.absolute .fragment bottom="40" right="10" align="bottom" width="600" height="300"}
+:::
+
+---
+
+
 
 
 ## NHS: Public Opinion {auto-animate=true}
