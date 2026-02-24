@@ -18,21 +18,6 @@ format:
     footer: <a>Public Service Decline and Support for the Populist Right</a>
 ---
 
-
-# Research Question {auto-animate=true}
-
-- Two dominant explanations for populist right support:
-  - **Economic backlash**: trade shocks, job losses, deindustrialisation [@margalit2019economic]
-  - **Cultural backlash**: immigration, value change, status threat [@norris2019cultural]
-
-- Less attention to citizens' *direct* experiences with the state through public services
-
-- **This paper**: Does declining public service delivery fuel support for the populist right?
-  - Do affected voters shift to the populist right — or to the mainstream opposition?
-  - Is this conditioned by local immigration?
-
----
-
 ::: {.r-stack}
 ![](images/motivation1.png){.absolute .fragment top="0" left="10" align="left" width="650" height="350"}
 
@@ -48,6 +33,23 @@ format:
 
 ![](images/motivation5.png){.absolute .fragment bottom="40" right="10" align="bottom" width="600" height="300"}
 :::
+
+---
+
+# Research Question {auto-animate=true}
+
+- Two dominant explanations for populist right support:
+  - **Economic backlash**: trade shocks, job losses, deindustrialisation [@margalit2019economic]
+  - **Cultural backlash**: immigration, value change, status threat [@norris2019cultural]
+
+- Less attention to citizens' *direct* experiences with the state through public services
+
+- **This paper**: Does declining public service delivery fuel support for the populist right?
+  - Do affected voters shift to the populist right — or to the mainstream opposition?
+  - Is this conditioned by local immigration?
+
+
+
 
 
 # Theory {auto-animate=true}
