@@ -30,7 +30,7 @@ format:
 
 - **This paper**: Does declining public service delivery fuel support for the populist right?
   - Do affected voters shift to the populist right — or to the mainstream opposition?
-  - Is this conditioned by local immigration?
+  - Is this conditioned by local contextual factors, such as immigration or economic conditions?
 
 
 
@@ -39,7 +39,7 @@ format:
 # Theory {auto-animate=true}
 
 - Public services are the most direct means through which citizens interact with and evaluate the state
-- The **social contract**: citizens accept obligations (taxes, law) in exchange for core public services [@levi1988rule; @besley2020state]
+- The **social contract**: citizens accept obligations (taxes, law) in exchange for core public services and security [@levi1988rule; @besley2020state]
 - When the state fails to deliver, dissatisfaction and grievances follow
   - Validates the populist right's anti-establishment narrative [@mudde2016populist]
 
@@ -54,7 +54,7 @@ format:
 <br>
 
 ::: {.incremental}
-1. Exposure to GP practice closures **increases support for the populist right**
+1. Exposure to declining public services **increases support for the populist right**
 
 2. The effects are **stronger in areas with greater immigration**, where the populist right's framing resonates more
 :::
